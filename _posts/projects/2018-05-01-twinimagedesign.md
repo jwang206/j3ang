@@ -9,13 +9,13 @@ meta:
 project:
   title: "Twin Image Design Website"
   type: "MEAN"
-  url: "https://dashboard.heroku.com/apps/obscure-ridge-86737"
+  url: "https://obscure-ridge-86737.herokuapp.com/"
   logo: "/assets/images/projects/redpineapple/logo.png"
   tech: "MongoDB, Express.js, Angular 6, Node.js, Angular Material"
 
 agency:
   title: "Twin Image Design"
-  url: "https://dashboard.heroku.com/apps/obscure-ridge-86737"
+  url: "https://obscure-ridge-86737.herokuapp.com/"
   year: "2018"
 
 images:
