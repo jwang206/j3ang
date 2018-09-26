@@ -1,6 +1,5 @@
 # User config
 author: "JW"
-tagline: "Pineapple Certfied Jekyll Theme"
 description: "Born in 1995. Neon | Guitar | Cat"
 keywords: "1995, webdev"
 email: "j3ang.info@gmail.com"
@@ -9,7 +8,7 @@ twitter: "https://twitter.com/j3ang_"
 github: "https://github.com/jwang206"
 
 # Site config
-baseurl: "/"
+baseurl: "/pineapple"
 highlighter: rouge
 sass:
   sass_dir: assets/scss

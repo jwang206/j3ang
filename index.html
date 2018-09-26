@@ -14,8 +14,8 @@
 	<main class="content">
 		<section class="intro">
 			<div class="container">
-				<h2>About me.</h2>
-				<p>{{ site.description }}</p>
+				<h2 class="title">About me.</h2>
+				<p id="site-description">{{ site.description }}</p>
 			</div>
 		</section>
 		<section class="projects">
@@ -38,7 +38,10 @@
 		</section>
 	</main>
 	{% include footer.html %}
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+
 	<script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
 	<script src="{{ "/assets/scripts/home.js" | prepend: site.baseurl }}"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/AniJS/0.9.3/anijs-min.js"></script> -->
 </body>
 </html>
