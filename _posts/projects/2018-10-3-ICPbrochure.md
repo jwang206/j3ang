@@ -13,7 +13,7 @@ project:
   tech: "Photoshop"
 
 agency:
-  title: "Office of Professional Developement Illinois Institute of Technology"
+  title: "Office of Professional Developement \n Illinois Institute of Technology"
   url: "https://appliedtech.iit.edu/office-of-professional-development/international/about"
   year: "2018"
 
