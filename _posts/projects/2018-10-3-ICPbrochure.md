@@ -9,13 +9,12 @@ meta:
 project:
   title: "Office of Professional Development Brochure Design"
   type: "Photoshop"
-  url: "https://obscure-ridge-86737.herokuapp.com/"
   logo: "/assets/images/projects/icpbrochure/front.jpg"
   tech: "Photoshop"
 
 agency:
-  title: "Illinois Institute of Technology"
-  url: "https://obscure-ridge-86737.herokuapp.com/"
+  title: "Office of Professional Developement Illinois Institute of Technology"
+  url: "https://appliedtech.iit.edu/office-of-professional-development/international/about"
   year: "2018"
 
 images:
