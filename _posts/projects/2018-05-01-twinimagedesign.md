@@ -10,7 +10,7 @@ project:
   title: "Twin Image Design Website"
   type: "MEAN"
   url: "https://obscure-ridge-86737.herokuapp.com/"
-  logo: "/assets/images/projects/redpineapple/logo.png"
+  logo: "/assets/images/projects/twinimagedesign/logo.png"
   tech: "MongoDB, Express.js, Angular 6, Node.js, Angular Material"
 
 agency:
@@ -20,13 +20,13 @@ agency:
 
 images:
   - image:
-    url: "/assets/images/projects/redpineapple/devices.jpg"
+    url: "/assets/images/projects/twinimagedesign/1.png"
     alt: "Red Pineapple website on tablet, mobile and desktop"
   - image:
-    url: "/assets/images/projects/redpineapple/desktop.jpg"
+    url: "/assets/images/projects/twinimagedesign/2.png"
     alt: "Red Pineapple website on a desktop device"
   - image:
-    url: "/assets/images/projects/redpineapple/mobile.jpg"
+    url: "/assets/images/projects/twinimagedesign/3.png"
     alt: "Red Pineapple website on a mobile device"
 ---
 <p>Built portfolio website for the client with admin panel using M.E.A.N stack.</p>
