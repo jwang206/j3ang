@@ -14,7 +14,7 @@ project:
   tech: "GoogleSheets API"
 
 agency:
-  title: "API"
+  title: "Google Sheets API"
   url: "https://github.com/j3ang/Google-Sheets-Book-API"
   year: "2016"
 
