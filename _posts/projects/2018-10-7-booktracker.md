@@ -21,7 +21,7 @@ agency:
 
 images:
   - image:
-    url: "assets/images/projects/book_tracker/Chrome_Browser_Mockup.jpg"
+    url: "assets/images/projects/book_tracker/browser.jpg"
     alt: "book tracker demo"
 videos:
 ---
