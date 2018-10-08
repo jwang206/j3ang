@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>{{ site.author }} / {{ page.project.title }}</title>
 	<meta name="author" content="{{ site.author }}">
@@ -7,6 +8,7 @@
 	<meta name="keywords" content="{{ page.meta.keywords }}">
 	{% include head.html %}
 </head>
+
 <body>
 	{% include header.html %}
 	<main class="content">
@@ -15,7 +17,8 @@
 				<article>
 					<span class="h2">Project Title</span>
 					<h1>
-						<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{ page.project.title }}</a>
+						<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{
+							page.project.title }}</a>
 					</h1>
 					<span class="h2">Role</span>
 					{{ page.content }}
@@ -23,7 +26,8 @@
 						<span class="h2">Technologies</span>
 						<p>{{ page.project.tech }}</p>
 						<span class="h2">Agency</span>
-						<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{ page.agency.title }}</a></p>
+						<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{
+								page.agency.title }}</a></p>
 						<span class="h2">Year</span>
 						<p>{{ page.agency.year }}</p>
 					</div>
@@ -33,6 +37,12 @@
 						{% for image in page.images %}
 						<li>
 							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+						</li>
+						{% endfor %}
+
+						{% for video in page.videos %}
+						<li>
+							<iframe src="{{ video.url | prepend: site.baseurl }}" alt="{{ video.alt }}" frameborder="0" /></iframe>
 						</li>
 						{% endfor %}
 					</ul>
@@ -63,4 +73,5 @@
 	<script src="{{ "/assets/scripts/project.js" | prepend: site.baseurl }}"></script>
 
 </body>
+
 </html>
