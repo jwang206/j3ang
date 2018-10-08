@@ -1,0 +1,37 @@
+
+---
+layout: project
+permalink: /:title/
+category: projects
+
+meta:
+  keywords: "film, animation, final cut pro, video, editing"
+
+project:
+  title: "Interprofessional Project (IPRO)"
+  url: "https://ipro.iit.edu/"
+  type: "Final Cut Pro"
+  logo: "/assets/images/projects/ipro497/logo"
+  tech: "Final Cut Pro"
+
+agency:
+  title: "Spring - IPRO 497-107 \n Developing a Campus News Videography Experience"
+  url: "https://appliedtech.iit.edu/office-of-professional-development/international/about"
+  year: "2016"
+
+videos:
+  - video:
+    url: "https://www.youtube.com/watch?v=YZyUUoqwqQI"
+    alt: "CityAdventures - Intro Downtown Chicago"
+  - video:
+    url: "https://www.youtube.com/watch?v=LVo_xtfi2e4"
+    alt: "CityAdventures - Chinatown Chicago"
+  - video:
+    url: "https://www.youtube.com/watch?v=tAXDP2CMiwY&t=30s"
+    alt: "CityAdventures - Boystown Chicago"
+  - video:
+    url: "https://www.youtube.com/watch?v=kJOVCWpruug&t=1s"
+    alt: "CityAdventures - WickerPark Chicago"
+---
+<p>Series of Chicago City Adventures.</p>
+ 
