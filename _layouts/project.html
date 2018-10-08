@@ -42,8 +42,10 @@
 
 						{% for video in page.videos %}
 						<li>
-							<iframe src="{{ video.url | prepend: site.baseurl }}" alt="{{ video.alt }}" width="100%" height="100%"
-							 frameborder="0" allowFullScreen="allowFullScreen" /></iframe>
+							<div class="videoWrapper">
+								<iframe src="{{ video.url | prepend: site.baseurl }}" alt="{{ video.alt }}" width="100%" height="100%"
+								 frameborder="0" allowFullScreen="allowFullScreen" /></iframe>
+							</div>
 						</li>
 						{% endfor %}
 					</ul>
