@@ -1,6 +1,6 @@
-(function($) {
-	$(function() {
-		$(window).on('load resize', function() {
+(function ($) {
+	$(function () {
+		$(window).on('load resize', function () {
 			sticky();
 		});
 
@@ -18,12 +18,43 @@
 	});
 
 	var sr = ScrollReveal({
-		origin   : "bottom",
-		distance : "64px",
-		duration : 900,
-		delay    : 0,
-		scale    : 1
+		origin: "bottom",
+		distance: "64px",
+		duration: 900,
+		delay: 0,
+		scale: 1
 	});
 
 	sr.reveal('.project li');
+
+
+	// resize embeded videos
+	var $allVideos = $("iframe[src^='//player.vimeo.com'], iframe[src^='//www.youtube.com'], object, embed"),
+		$fluidEl = $("figure");
+
+	$allVideos.each(function () {
+
+		$(this)
+			// jQuery .data does not work on object/embed elements
+			.attr('data-aspectRatio', this.height / this.width)
+			.removeAttr('height')
+			.removeAttr('width');
+
+	});
+
+	$(window).resize(function () {
+
+		var newWidth = $fluidEl.width();
+		$allVideos.each(function () {
+
+			var $el = $(this);
+			$el
+				.width(newWidth)
+				.height(newWidth * $el.attr('data-aspectRatio'));
+
+		});
+
+	}).resize();
+	// resize embeded videos end
+
 }(jQuery));
