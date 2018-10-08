@@ -42,7 +42,7 @@
 
 						{% for video in page.videos %}
 						<li>
-							<iframe src="{{ video.url | prepend: site.baseurl }}" alt="{{ video.alt }}" frameborder="0" /></iframe>
+							<iframe src="{{ video.url | prepend: site.baseurl }}" alt="{{ video.alt }}" width="560" height="315" frameborder="0" /></iframe>
 						</li>
 						{% endfor %}
 					</ul>
