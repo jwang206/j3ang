@@ -28,7 +28,7 @@
 						<span class="h2">Agency</span>
 						<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{
 								page.agency.title }}</a></p>
-						<span class="h2">Year</span>ls
+						<span class="h2">Year</span>
 						<p>{{ page.agency.year }}</p>
 					</div>
 				</article>
@@ -42,7 +42,7 @@
 
 						{% for video in page.videos %}
 						<li>
-							<iframe src="{{ video.url | prepend: site.baseurl }}" alt="{{ video.alt }}" width="100%" height="auto"
+							<iframe src="{{ video.url | prepend: site.baseurl }}" alt="{{ video.alt }}" width="100%" height="100%"
 							 frameborder="0" allowFullScreen="allowFullScreen" /></iframe>
 						</li>
 						{% endfor %}
