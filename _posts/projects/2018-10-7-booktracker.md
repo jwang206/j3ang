@@ -10,7 +10,7 @@ project:
   title: "Book Tracker"
   url: "https://still-dawn-45633.herokuapp.com/"
   type: "API"
-  logo: "assets/images/projects/book_tracker/logo.png"
+  logo: "/assets/images/projects/book_tracker/logo.png"
   tech: "GoogleSheets API"
 
 agency:
@@ -21,7 +21,7 @@ agency:
 
 images:
   - image:
-    url: "assets/images/projects/book_tracker/browser.jpg"
+    url: "/assets/images/projects/book_tracker/browser.jpg"
     alt: "book tracker demo"
 videos:
 ---
