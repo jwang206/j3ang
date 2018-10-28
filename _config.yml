@@ -1,13 +1,15 @@
 # User config
-author: "JW"
+author: "J3ang"
 description: "Born in 1995. Neon • Guitar • Cat"
 keywords: "1995, webdev"
+
 email: "j3ang.info@gmail.com"
+resume: "https://j3ang.me/assets/j3ang_resume.pdf"
+
 linkedin: "https://www.linkedin.com/in/j3ang/"
 twitter: "https://twitter.com/j3ang_"
 github: "https://github.com/j3ang"
 instagram: "https://www.instagram.com/j3ang__/"
-
 
 # Site config
 baseurl: "/"
