@@ -390,6 +390,13 @@
 	right: 0;
 	z-index: -1;
 
+	#corner-overlay {
+    width: 0;
+    height: 100%;
+    border-left:8px solid #21247b;
+    position: absolute;
+}
+
 #resume-download-link{
 	color:gray;
 	font-size: 0.8rem;

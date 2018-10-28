@@ -1,7 +1,7 @@
 # User config
 author: "J3ang"
-description: "Born in 1995. Neon • Guitar • Cat"
-keywords: "1995, webdev"
+description: "Neon • Guitar • Cat's Dad"
+keywords: "webdev"
 
 email: "j3ang.info@gmail.com"
 resume: "https://j3ang.me/assets/j3ang_resume.pdf"
@@ -12,7 +12,7 @@ github: "https://github.com/j3ang"
 instagram: "https://www.instagram.com/j3ang__/"
 
 # Site config
-baseurl: "/"
+baseurl: ""
 highlighter: rouge
 sass:
   sass_dir: assets/scss
