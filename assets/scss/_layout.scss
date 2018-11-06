@@ -7,7 +7,10 @@
 }
 
 .header {
-    background: $color-black;
+    background: $color-black !important;
+    // background-image: url(/assets/images/header-bg.jpg);
+    background: no-repeat;
+    background-size: contain;
     padding: 3rem 0;
 
     .overlay-div {

@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /:title/
-category: hackathon
+category: projects
 
 meta:
   keywords: "hackathon"
@@ -18,19 +18,14 @@ agency:
   url: "https://vandyhacksv.devpost.com/participants"
   year: "2018"
 
-# images:
-#   - image:
-#     url: "/assets/images/projects/vandyhack/team.jpeg"
-#     alt: "team"
-#   - image:
-#     url: "/assets/images/projects/vandyhack/tadhack_mockup.jpg"
-#     alt: "mockup"
-
 videos:
-- video:
-  url: "https://www.youtube.com/embed/cIgN2AngjK4"
-  alt: "Vandyhack Influx Demo"
-
+  - video:
+    url: "https://www.youtube.com/embed/cIgN2AngjK4"
+    alt: "Vandyhack Influx Demo"
+images:
+  - image:
+    url: "/assets/images/projects/vandyhack/page1.png"
+    alt: "Vandyhack Influx Demo"
 
 ---
 <p>An analytic tool for business finding right influencer for marketing. </p>
