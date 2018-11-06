@@ -25,10 +25,12 @@ agency:
 #   - image:
 #     url: "/assets/images/projects/vandyhack/tadhack_mockup.jpg"
 #     alt: "mockup"
-videos: 
- - video:
-    url: "https://www.youtube.com/embed/cIgN2AngjK4"
-    alt: "demo"
+
+videos:
+- video:
+  url: "https://www.youtube.com/embed/cIgN2AngjK4"
+  alt: "Vandyhack Influx Demo"
+
 
 ---
 <p>An analytic tool for business finding right influencer for marketing. </p>
