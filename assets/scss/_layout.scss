@@ -7,8 +7,7 @@
 }
 
 .header {
-    background: $color-black !important;
-    // background-image: url(/assets/images/header-bg.jpg);
+    background: $color-black !important; // background-image: url(/assets/images/header-bg.jpg);
     background: no-repeat;
     background-size: contain;
     padding: 3rem 0;
@@ -54,9 +53,6 @@
     top: 0;
     left: 0;
     z-index: 1;
-
-
-
 
     @media (min-width: $breakpoint-medium) {
         padding: 21rem 0 0;
@@ -428,4 +424,81 @@
 .contact,
 .follow {
     margin-bottom: 3rem;
+}
+
+ul#categories {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Lekton", Helvetica, Arial, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5rem;
+
+    li a {
+        color: whitesmoke;
+    }
+
+    li a:hover {
+        color: black;
+        background: #fff;
+    }
+}
+
+.tabs {
+    margin: 0;
+    height: 25px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; // border-bottom: 1px solid lightgrey;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+
+    a {
+        color: wheat;
+    }
+
+    .tab {
+        /* border: none; */
+        float: left;
+        padding: 3px 5px;
+        cursor: pointer;
+        list-style-type: none;
+        /* border: 1px solid lightgrey; */
+        /* border-bottom: none; */
+        /* box-sizing: border-box; */
+        /* height: 24px; */
+        /* background: white; */
+        margin-right: 2px;
+        font-family: sans-serif !important;
+        font-size: 10pt !important;
+
+        /* line-height: 100% !important; */
+        /* border-radius: 2px 2px 0 0; */
+        &:hover {
+            color: black;
+            margin-top: -3px;
+            border-top: 3px solid rgb(29, 95, 236);
+            background: #fff;
+        }
+
+        a {
+            color: whitesmoke;
+
+            &:hover {
+                color: black;
+            }
+        }
+
+
+    }
+
+    .active {
+        font-weight: bold !important;
+        margin-top: -3px;
+        border-top: 3px solid rgb(29, 95, 236);
+        color: whitesmoke;
+        // background: #fff;
+    }
 }
