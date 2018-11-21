@@ -2,46 +2,66 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>{{ site.author }} / {{ site.tagline }}</title>
-	<meta name="author" content="{{ site.author }}">
-	<meta name="description" content="{{ site.description }}">
-	<meta name="keywords" content="{{ site.keywords }}">
-	{% include head.html %}
-</head>
-<body>
-	{% include header.html %}
-	<main class="content">
-		<section class="intro">
-			<div class="container">
-				<h2 class="title">About me.</h2>
-				<p id="site-description"><i class="fas fa-heart" style="color:red; font-size: 0.8rem; vertical-align:middle;"></i> Full Stack WebDev <br>  {{ site.description }}</p>
-			</div>
-		</section>
-		<section class="projects">
-			<div class="container">
-				<h2>Projects I have worked on.</h2>
-				<ul class="projects-list">
-					{% for item in site.categories.projects reversed %}
-						<li>
-							<a href="{{ item.url | prepend: site.baseurl }}">
-								<div class="img-wrapper">
-									<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
-								</div>
-								<span class="h2">{{ item.project.type }}</span>
-								<h3>{{ item.project.title }}</h3>
-							</a>
-						</li>
-					{% endfor %}
-				</ul>
-			</div>
-		</section>
-	</main>
-	{% include footer.html %}
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
 
-	<script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
-	<script src="{{ "/assets/scripts/home.js" | prepend: site.baseurl }}"></script>
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/AniJS/0.9.3/anijs-min.js"></script> -->
+<head>
+    <title>{{ site.author }} / {{ site.tagline }}</title>
+    <meta name="author" content="{{ site.author }}">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ site.keywords }}">
+    {% include head.html %}
+</head>
+
+<body>
+    {% include header.html %}
+    <main class="content">
+        <section class="intro">
+            <div class="container">
+                <h2 class="title"><i class="fas fa-heart" style="color:red; font-size: 0.8rem; vertical-align:middle;"></i>
+                    About me.</h2>
+                <p id="site-description">
+                    {{ site.description }}</p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="tabcontrol tabs container button-group filter-button-group">
+                {% for category in site.categories %}
+                <a class="button tab" data-filter=".{{ category | first }}">{{ category | first }}</a>
+                {% endfor %}
+                <a class="button active tab" data-filter="*">All</a>
+            </div>
+
+            <div class="container">
+                <ul class="projects-list grid">
+                    {% for post in site.posts %}
+                    <li class="element-item {{ post.category }}">
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            <div class="img-wrapper">
+                                <img src="{{ post.project.logo | prepend: site.baseurl }}" alt="{{ post.project.title }}" />
+                            </div>
+                            <span class="h2">{{ post.project.type }}</span>
+                            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                            <h3>{{ post.project.title }}</h3>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+        </section>
+
+    </main>
+    {% include footer.html %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.550/pdf.worker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.550/pdf.min.js"></script> -->
+    <script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <script src="{{ "/assets/scripts/home.js" | prepend: site.baseurl }}"></script>
+
 </body>
+
 </html>

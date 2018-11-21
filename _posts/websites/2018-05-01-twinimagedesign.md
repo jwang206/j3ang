@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /:title/
-category: projects
+category: Websites
 
 meta:
   keywords: "Angular, MEAN"

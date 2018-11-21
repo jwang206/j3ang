@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /:title/
-category: projects
+category: Graphic
 
 meta:
   keywords: "photoshop, design, brochure, flyer"
