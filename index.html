@@ -15,7 +15,7 @@
     {% include header.html %}
     <main class="content">
         <section class="intro">
-            <div class="container">
+            <div class="container head-intro">
                 <h2 class="title"><i class="fas fa-heart" style="color:red; font-size: 0.8rem; vertical-align:middle;"></i>
                     About me.</h2>
                 <p id="site-description">
@@ -24,14 +24,14 @@
         </section>
 
         <section class="projects">
-            <div class="tabcontrol tabs container button-group filter-button-group">
-                {% for category in site.categories %}
-                <a class="button tab" data-filter=".{{ category | first }}">{{ category | first }}</a>
-                {% endfor %}
-                <a class="button active tab" data-filter="*">All</a>
-            </div>
 
             <div class="container">
+                <div class="tabcontrol tabs container button-group filter-button-group">
+                    {% for category in site.categories %}
+                    <a class="button tab" data-filter=".{{ category | first }}">{{ category | first }}</a>
+                    {% endfor %}
+                    <a class="button active tab" data-filter="*">All</a>
+                </div>
                 <ul class="projects-list grid">
                     {% for post in site.posts %}
                     <li class="element-item {{ post.category }}">

@@ -21,6 +21,11 @@
         background-color: gray;
         background: black;
     }
+
+    .container{
+        display:flex;
+        justify-content: center;
+    }
 }
 
 .logo {
@@ -48,7 +53,7 @@
 .content {
     background: $color-black;
     color: antiquewhite;
-    padding: 7rem 0 0;
+    // padding: 7rem 0 0;
     margin-bottom: 31.24rem;
     position: relative;
     top: 0;
@@ -166,14 +171,19 @@
         margin: 1rem 0 .5rem;
     }
 }
-
+.head-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .project {
     left: 0;
     position: relative;
     top: 0;
 
     @media (min-width: $breakpoint-medium) {
-        margin-top: -21rem;
+        // margin-top: -21rem;
 
         .article-wrapper {
             position: absolute;
@@ -186,7 +196,11 @@
 
     .container {
         max-width: 100%;
+    
+
     }
+
+    
 
     article {
         margin-bottom: 3rem;
@@ -556,3 +570,4 @@ span.post-meta {
         text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
     }
 }
+
