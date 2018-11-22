@@ -515,11 +515,16 @@ ul#categories {
 }
 
 .avatar {
-    margin-bottom: 3rem;
+    margin: 3rem 0;
 
     #name {
         font-size: 3rem;
     }
+}
+
+span.post-meta {
+    color: darkgray;
+    font-size: 1rem;
 }
 
 @-webkit-keyframes neon3 {
