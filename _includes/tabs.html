@@ -1,0 +1,37 @@
+<div class="tabcontrol container">
+    <ul class="tabcontrol tabs">
+        {% for tab in site.data.tabs %}
+        <li class="tabcontrol tab {% if {tab[1].active %}active{% endif %}" data-name="{{tab[1].name}}" data-target="tab_{{include.id}}"
+            data-source="{{include.id}}__{{tab[1].source}}">
+            {{tab[1].title}}
+        </li>
+        {% if tab[1].active %}
+        {% assign defaultsource = tab[1].source %}
+
+        {% endif %}
+        {% if tab[1].content %}
+        <div id="{{include.id}}__{{tab[1].source}}" class="hidden">
+            {{tab[1].content | markdownify }}
+        </div>
+        {% endif %}
+        {% endfor %}
+    </ul>
+    <div id="tab_{{include.id}}" class="tabcontrol-body" data-defaultsource="{{include.id}}__{{defaultsource}}">
+        <div class="container">
+            <ul class="projects-list">
+                {% for item in site.categories.projects reversed %}
+                <li>
+                    <a href="{{ item.url | prepend: site.baseurl }}">
+                        <div class="img-wrapper">
+                            <img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
+                        </div>
+                        <span class="h2">{{ item.project.type }}</span>
+                        <h3>{{ item.project.title }}</h3>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+    </div>
+</div>

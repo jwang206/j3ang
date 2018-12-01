@@ -1,0 +1,29 @@
+tab1:
+    name: foo
+    title: All
+    active: 1
+    source: source1
+    content: >
+        ## Headline1
+
+
+tab2:
+    name: bar
+    title: Graphic Design
+    source: source2
+    content: >
+        ## Headline2
+    
+tab3:
+    name: baz
+    title: Video Editing
+    source: source3
+    content: >
+        ## Headline3
+
+tab4:
+    name: baz
+    title: Visual
+    source: source4
+    content: >
+        ## Headline4
