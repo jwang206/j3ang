@@ -8,7 +8,7 @@ meta:
 
 project:
   title: "Lingtong Winter Camp Promo"
-  url: "https://ipro.iit.edu/"
+  url: "http://www.lingtonglz.com/"
   type: "Final Cut Pro"
   logo: "/assets/images/projects/LingtongPromo/logo.png"
   tech: "Final Cut Pro"
@@ -27,5 +27,5 @@ videos:
     alt: ""
 
 ---
-<p>Winter Camp Promotional Video</p>
+<p>Video Editor</p>
  
