@@ -10,7 +10,7 @@ project:
   title: "Prism Logo Design"
   url: "https://prismlogos.firebaseapp.com/"
   type: "Adobe Illustrator"
-  logo: "/assets/images/projects/graphics/prism/black-lg.png"
+  logo: "/assets/images/projects/graphics/prism/logo.png"
   tech: "Adobe Illustrator"
 
 agency:
