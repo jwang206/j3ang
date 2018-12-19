@@ -8,7 +8,7 @@ meta:
 
 project:
   title: "Jacques International Language Academy Promo Video"
-  url: "https://www.youtube.com/watch?v=j9TCtOwyS7k"
+  url: "https://www.youtube.com/watch?v=6xwdq8DE8vw"
   type: "Final Cut Pro"
   logo: "/assets/images/projects/JilaPromo/logo.png"
   tech: "Final Cut Pro"
@@ -20,7 +20,7 @@ agency:
 
 videos:
   - video:
-    url: "https://www.youtube.com/embed/j9TCtOwyS7k"
+    url: "https://www.youtube.com/embed/6xwdq8DE8vw"
     alt: "Jacques International Language Academy Promo"
   - video:
     url: ""
