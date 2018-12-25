@@ -10,7 +10,7 @@ project:
   title: "2019 ELE Conversational Website Mock Up"
   type: "PHOTOSHOP"
   url: "http://www.learningexecutive.com/contact.asp"
-  logo: "/assets/images/projects/ELE/logo.JPG"
+  logo: "/assets/images/projects/ELE/logo.jpg"
   tech: "Photoshop"
 
 agency:
@@ -21,7 +21,7 @@ agency:
 images:
   - image:
     url: "/assets/images/projects/ELE/mockup.jpg"
-    alt: "twinimage website on a tablet device"
+    alt: "ELE mockup"
 
 ---
 <p>2019 ELE Conversational Website Mock Up</p>
