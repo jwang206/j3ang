@@ -11,6 +11,7 @@ project:
   type: "PHOTOSHOP"
   url: "http://www.learningexecutive.com/contact.asp"
   logo: "/assets/images/projects/ELE/logo.jpg"
+  
   tech: "Photoshop"
 
 agency:
