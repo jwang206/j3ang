@@ -2,11 +2,19 @@
     <div id="corner-overlay"></div>
 
     <div class="container">
-        <section class="avatar">
-            <h3 id="name">Alex Wang</h3>
-            <p>Information Technology and Management</p>
-            <p>BS - Illinois Institute of Technology '18</p>
+        <section class="profile">
+            <a title="Linkedin" href="{{ site.linkedin }}" target="_blank"> <img src="assets/images/avatar.png" alt="Avatar"
+                    class="avatar"></a>
+
+            <div class="info">
+                <h3 id="name">Alex Wang</h3>
+                <a title="{{ site.resume }}" href="PDF.js/web/viewer.html?file=/{{ site.resume }}" id="resume-download-link"
+                    target="_blank"><i class="fas fa-file-download"></i> Resume</a>
+                <p>Information Technology and Management</p>
+                <p>BS - Illinois Institute of Technology '18</p>
+            </div>
         </section>
+
     </div>
 
     <div class="container">
@@ -14,17 +22,14 @@
             <h2>Contact</h2>
             <a title="{{ site.email }}" href="mailto:{{ site.email }}">{{ site.email }}</a><br>
 
-            <a title="{{ site.resume }}" href="PDF.js/web/viewer.html?file=/{{ site.resume }}" id="resume-download-link"
-                target="_blank"><i class="fas fa-file-download"></i> Resume</a>
-
         </section>
         <section class="follow">
-            <h2>Follow</h2>
+            <h2>Connect</h2>
             <ul class="social-icons">
                 <li><a title="Linkedin" href="{{ site.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                 <li><a title="Twitter" href="{{ site.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                <li><a title="Github" href="{{ site.github }}" target="_blank"><i class="fab fa-github"></i></a></li>
                 <li><a title="Instagram" href="{{ site.instagram }}" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a title="Github" href="{{ site.github }}" target="_blank"><i class="fab fa-github"></i></a></li>
             </ul>
         </section>
 
