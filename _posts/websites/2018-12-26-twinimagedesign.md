@@ -10,7 +10,7 @@ project:
   title: "Twin Image Design Website"
   type: "MEAN"
   url: "https://tid-key.herokuapp.com/"
-  logo: "/assets/images/projects/twinimagedesign/fileupload.gif"
+  logo: "/assets/images/projects/twinimagedesign/logo.png"
   tech: "MongoDB, Express.js, Angular 6, Node.js, Angular Material"
 
 agency:
