@@ -15,12 +15,22 @@
     {% include header.html %}
     <main class="content">
         <section class="intro">
+
             <div class="container head-intro">
-                <h2 class="title"><i class="fas fa-heart" style="color:red; font-size: 0.8rem; vertical-align:middle;"></i>
-                    About me.</h2>
+                <div id="profile-link" onclick="handlers.scrollBottom()" style="cursor: pointer;">
+                    <span class="fa-stack">
+                        <i class="fa fa-cog fa-spin fa-stack-2x fa-fw " aria-hidden="true"></i>
+                        <i class="fa fa-heart fa-stack-1x"></i>
+                    </span>
+                    <h2 class="title">
+                        About me.
+                    </h2>
+                </div>
+
                 <p id="site-description">
                     {{ site.description }}</p>
             </div>
+
         </section>
 
         <section class="projects">

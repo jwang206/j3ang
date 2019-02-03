@@ -17,7 +17,7 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="/assets/css/style.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
     crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 <script type="text/javascript">
@@ -48,12 +48,22 @@
 </header>
     <main class="content">
         <section class="intro">
+
             <div class="container head-intro">
-                <h2 class="title"><i class="fas fa-heart" style="color:red; font-size: 0.8rem; vertical-align:middle;"></i>
-                    About me.</h2>
+                <div id="profile-link" onclick="handlers.scrollBottom()" style="cursor: pointer;">
+                    <span class="fa-stack">
+                        <i class="fa fa-cog fa-spin fa-stack-2x fa-fw " aria-hidden="true"></i>
+                        <i class="fa fa-heart fa-stack-1x"></i>
+                    </span>
+                    <h2 class="title">
+                        About me.
+                    </h2>
+                </div>
+
                 <p id="site-description">
                     I'm currently graduated from IIT with IT and Management degree where I have gained a broad range of knowledge and hands-on experiences in software development and the business side of project management. I fell in love with web development particularly. While I enjoy the client side development, I also enjoyed working with the back-end server side. <br><br> I worked on a couple of website projects besides the school work, where I  re-designed and developed the website from scratch for the client and provided the owner with an admin panel. And while I enjoyed working on these projects, I'd like the chance of working with others and learn more from each other, which is why I'm so excited and looking forward to joining a team as an intern to contribute and learn. </p>
             </div>
+
         </section>
 
         <section class="projects">
@@ -78,7 +88,7 @@
                     <li class="element-item Websites">
                         <a href="/twinimagedesign/">
                             <div class="img-wrapper">
-                                <img src="/assets/images/projects/twinimagedesign/fileupload.gif" alt="Twin Image Design Website" />
+                                <img src="/assets/images/projects/twinimagedesign/logo.png" alt="Twin Image Design Website" />
                             </div>
                             <span class="h2">MEAN</span>
                             <span class="post-meta">Dec 26, 2018</span>
@@ -225,7 +235,10 @@
                 <h3 id="name">Alex Wang</h3>
                 <a title="assets/j3ang_resume.pdf" href="PDF.js/web/viewer.html?file=/assets/j3ang_resume.pdf" id="resume-download-link"
                     target="_blank"><i class="fas fa-file-download"></i> Resume</a>
-                <p>Information Technology and Management</p>
+                <p id="major"><a href="https://appliedtech.iit.edu/information-technology-and-management/programs/undergraduate/degrees/bachelor-information-technolo-1"
+                        target="_blank">Information
+                        Technology and Management</a>
+                </p>
                 <p>BS - Illinois Institute of Technology '18</p>
             </div>
         </section>

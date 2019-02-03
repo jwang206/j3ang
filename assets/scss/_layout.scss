@@ -52,6 +52,54 @@
     text-shadow: 0 0 5px #000, 0 0 5px #fff, 0 0 1px cyan, 0 0 5px cyan, 0 0 3px purple;
 }
 
+// #profile-link::after {
+//     font-family: "Font Awesome 5 Free";
+//     content: "\f103";
+//     font-weight: 900;
+//     position: relative;
+//     right: 50%;
+//     top: 2rem;
+// }
+
+#major>a:hover {
+    color: #F44336;
+    transition: all 0.3s;
+}
+
+#major:hover:after {
+    display: inline-block;
+}
+
+#major::after {
+    display: none;
+    font-family: "Font Awesome 5 Free";
+    content: "\f061";
+    font-weight: 900;
+    color: #F44336;
+    transition: all linear color 2s;
+}
+
+.title {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#profile-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.fa-heart {
+    font-size: 1.1em;
+    color: red;
+}
+
+.fa-stack {
+    font-size: 1.25rem;
+}
+
 .content {
     background: $color-black;
     color: antiquewhite; // padding: 7rem 0 0;

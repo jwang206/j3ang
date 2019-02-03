@@ -55,4 +55,10 @@ window.onload = function () {
 
 // anime.speed = 0.5;
 
+var handlers = {
+    scrollBottom: function () {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+}
+
 $(window).scrollTop(0, 0);
