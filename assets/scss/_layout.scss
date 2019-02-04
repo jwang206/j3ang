@@ -566,6 +566,19 @@ ul#categories {
     }
 }
 
+.backtoTop {
+    color: papayawhip;
+    background: #191919;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backtoTop:hover {
+    color: #F44336;
+}
+
 .profile {
     display: flex;
     flex-direction: row;
@@ -597,6 +610,8 @@ ul#categories {
         }
     }
 }
+
+
 
 span.post-meta {
     color: darkgray;

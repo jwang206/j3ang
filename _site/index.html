@@ -17,7 +17,7 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="/assets/css/style.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 <script type="text/javascript">
@@ -37,15 +37,16 @@
 
 <body>
     <header class="header">
-	<div class="container">
+    <div class="container">
 
-		<h1 class="logo">
-			<a title="J3ang" href="/">
-				<img src='/assets/images/j3-logo.svg' width="150rem" style="padding-top:10px" alt='j3-logo' />
-			</a>
-		</h1>
-	</div>
+        <h1 class="logo" id="logo">
+            <a title="J3ang" href="/">
+                <img src='/assets/images/j3-logo.svg' width="150rem" style="padding-top:10px" alt='j3-logo' />
+            </a>
+        </h1>
+    </div>
 </header>
+
     <main class="content">
         <section class="intro">
 
@@ -53,7 +54,7 @@
                 <div id="profile-link" onclick="handlers.scrollBottom()" style="cursor: pointer;">
                     <span class="fa-stack">
                         <i class="fa fa-cog fa-spin fa-stack-2x fa-fw " aria-hidden="true"></i>
-                        <i class="fa fa-heart fa-stack-1x"></i>
+                        <i style="color:red" class="fa fa-heart fa-stack-1x"></i>
                     </span>
                     <h2 class="title">
                         About me.
@@ -221,6 +222,12 @@
             </div>
 
         </section>
+        <a href="#logo">
+            <div class="backtoTop">
+                <i class="fas fa-2x fa-chevron-circle-up"></i>
+            </div>
+        </a>
+
 
     </main>
     <footer class="footer">
