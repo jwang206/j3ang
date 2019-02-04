@@ -79,6 +79,7 @@
 }
 
 .title {
+    font-size: 1em;
     margin: 0 !important;
     padding: 0 !important;
 }
@@ -88,6 +89,11 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+}
+
+#profile-link:hover .fa-cog,
+#profile-link:hover .fa-chevron-circle-down {
+    color: #F44336;
 }
 
 .fa-heart {
