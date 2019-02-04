@@ -65,12 +65,8 @@
     transition: all 0.3s;
 }
 
-#major:hover:after {
-    display: inline-block;
-}
-
 #major::after {
-    display: none;
+    display: inline-block;
     font-family: "Font Awesome 5 Free";
     content: "\f061";
     font-weight: 900;
