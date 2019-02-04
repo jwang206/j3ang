@@ -60,7 +60,6 @@
 //     right: 50%;
 //     top: 2rem;
 // }
-
 #major>a:hover {
     color: #F44336;
     transition: all 0.3s;
@@ -577,6 +576,11 @@ ul#categories {
 
 .backtoTop:hover {
     color: #F44336;
+    background: white;
+    border-left: 8px solid #21247b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile {
@@ -610,8 +614,6 @@ ul#categories {
         }
     }
 }
-
-
 
 span.post-meta {
     color: darkgray;
