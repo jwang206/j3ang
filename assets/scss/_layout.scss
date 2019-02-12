@@ -1,7 +1,7 @@
 .container {
     display: block;
     margin: 0 auto;
-    max-width: 70em;
+    max-width: 70em !important;
     padding: 0 3rem;
     @include clearfix;
 }
@@ -91,6 +91,11 @@
 #profile-link:hover .fa-cog,
 #profile-link:hover .fa-chevron-circle-down {
     color: #F44336;
+}
+
+.btn-outline-primary {
+    width: 100% !important;
+    margin-bottom: 3rem !important;
 }
 
 .fa-heart {
@@ -487,11 +492,6 @@
     }
 }
 
-.contact,
-.follow {
-    margin-bottom: 3rem;
-}
-
 ul#categories {
     display: flex;
     justify-content: space-evenly;
@@ -586,16 +586,25 @@ ul#categories {
     align-items: center;
 }
 
+#form_wrapper {
+    @media (min-width: $breakpoint-medium) {
+        margin-top: 3rem;
+    }
+
+}
+
+
+
 .profile {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    // display: flex;
+    // flex-direction: row;
+    // align-items: center;
     margin-top: 3rem;
 
-    @media only screen and (max-width: 600px) {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+    // @media only screen and (max-width: 600px) {
+    //     flex-direction: column;
+    //     align-items: flex-start;
+    // }
 
     .avatar {
         vertical-align: middle;
@@ -604,13 +613,13 @@ ul#categories {
         border-radius: 50%;
     }
 
-    .info {
+    #detail {
         margin: 3rem 0;
-        padding-left: 3rem;
+        // padding-left: 3rem;
 
-        @media only screen and (max-width: 600px) {
-            padding-left: 0rem;
-        }
+        // @media only screen and (max-width: 600px) {
+        //     padding-left: 0rem;
+        // }
 
         #name {
             font-size: 3rem;

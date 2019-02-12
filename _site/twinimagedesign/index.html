@@ -20,6 +20,8 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA"
+    crossorigin="anonymous">
 <script type="text/javascript">
     window.$crisp = [];
     window.CRISP_WEBSITE_ID = "7ca09844-fce6-4227-91b2-84526b49eada";
@@ -98,43 +100,85 @@
     <footer class="footer">
     <div id="corner-overlay"></div>
 
-    <div class="container">
-        <section class="profile">
-            <a title="Linkedin" href="https://www.linkedin.com/in/j3ang/" target="_blank"> <img src="assets/images/avatar.png" alt="Avatar"
-                    class="avatar"></a>
 
-            <div class="info">
-                <h3 id="name">Alex Wang</h3>
-                <a title="assets/j3ang_resume.pdf" href="PDF.js/web/viewer.html?file=/assets/j3ang_resume.pdf" id="resume-download-link"
-                    target="_blank"><i class="fas fa-file-download"></i> Resume</a>
-                <p id="major"><a href="https://appliedtech.iit.edu/information-technology-and-management/programs/undergraduate/degrees/bachelor-information-technolo-1"
-                        target="_blank">Information
-                        Technology and Management</a>
-                </p>
-                <p>BS - Illinois Institute of Technology '18</p>
+    <div class="container d-flex flex-column align-items-start flex-md-row col-sm-12">
+        <div class="profile d-flex flex-column col-sm-12 col-md-7 ">
+            <div id="avatar">
+                <a title="Linkedin" href="https://www.linkedin.com/in/j3ang/" target="_blank"> <img src="assets/images/avatar.png" alt="Avatar"
+                        class="avatar"></a>
             </div>
-        </section>
 
+            <div id="detail">
+                <div id="info" class="mb-4">
+                    <h3 id="name">Alex Wang</h3>
+
+                    <a title="assets/j3ang_resume.pdf" href="PDF.js/web/viewer.html?file=/assets/j3ang_resume.pdf" id="resume-download-link"
+                        target="_blank"><i class="fas fa-file-download"></i> Resume</a>
+
+                    <p id="major"><a href="https://appliedtech.iit.edu/information-technology-and-management/programs/undergraduate/degrees/bachelor-information-technolo-1"
+                            target="_blank">Information
+                            Technology and Management</a>
+                    </p>
+
+                    <p>BS - Illinois Institute of Technology '18</p>
+                </div>
+
+                <div id="connect" class="d-flex flex-column align-items-start ">
+                    <div class="contact mb-3 ">
+                        <h2>Contact</h2>
+                        <a title="j3ang.info@gmail.com" href="mailto:j3ang.info@gmail.com">j3ang.info@gmail.com</a><br>
+                    </div>
+
+                    <div class="follow ">
+                        <h2>Connect</h2>
+                        <ul class="social-icons">
+                            <li><a title="Linkedin" href="https://www.linkedin.com/in/j3ang/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a title="Twitter" href="https://twitter.com/j3ang_" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a title="Instagram" href="https://www.instagram.com/j3ang__/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a title="Github" href="https://github.com/j3ang" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="form_wrapper" class="d-flex flex-column justify-content-center bd-highlight col-sm-12 col-md-5  ">
+
+            <h3 class="mb-4">*How may I help you?</h3>
+            <form id="contact_form">
+
+                <div class="form-group mt-1">
+                    <label for="firstname">First Name</label>
+                    <input class="form-control" type="text" id="firstname" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="lastname">Last Name</label>
+                    <input class="form-control" type="text" id="lastname" />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" type="email" id="email" size="30" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="comment">Comment</label>
+                    <textarea class="form-control" id="comment" rows="4"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-outline-primary mt-4">Send</button>
+
+            </form>
+
+        </div>
     </div>
 
-    <div class="container">
-        <section class="contact">
-            <h2>Contact</h2>
-            <a title="j3ang.info@gmail.com" href="mailto:j3ang.info@gmail.com">j3ang.info@gmail.com</a><br>
-
-        </section>
-        <section class="follow">
-            <h2>Connect</h2>
-            <ul class="social-icons">
-                <li><a title="Linkedin" href="https://www.linkedin.com/in/j3ang/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                <li><a title="Twitter" href="https://twitter.com/j3ang_" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                <li><a title="Instagram" href="https://www.instagram.com/j3ang__/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                <li><a title="Github" href="https://github.com/j3ang" target="_blank"><i class="fab fa-github"></i></a></li>
-            </ul>
-        </section>
 
 
-    </div>
+
 </footer>
 
     <script src="/assets/scripts/vendor/jquery-1.12.4.min.js"></script>
