@@ -1,19 +1,17 @@
-$(document).ready(function () {
+// $(document).ready(function () {
 
 
-    // set content margin bottom 
-    $('.content').css('margin-bottom', $('.footer').height() + 'px');
-    $(window).on('resize', function () {
-        // set content margin bottom 
-        $('.content').css('margin-bottom', $('.footer').height() + 'px');
-        $('.content').scrollTop(0, 0);
+//     // set content margin bottom 
+//     $('.content').css('margin-bottom', $('.footer').height() + 'px');
+//     $(window).on('resize', function () {
+//         // set content margin bottom 
+//         $('.content').css('margin-bottom', $('.footer').height() + 'px');
+//         $('.content').scrollTop(0, 0);
 
-    });
-});
+//     });
+// });
 
 window.onload = function () {
-    console.log("called top");
-
 
     // init Isotope
     var $grid = $('.grid').isotope({
@@ -55,10 +53,8 @@ window.onload = function () {
 
 // anime.speed = 0.5;
 
-var handlers = {
-    scrollBottom: function () {
-        window.scrollTo(0, document.body.scrollHeight);
-    }
-}
-
-$(window).scrollTop(0, 0);
+// var handlers = {
+//     scrollBottom: function () {
+//         window.scrollTo(0, document.body.scrollHeight);
+//     }
+// }

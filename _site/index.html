@@ -53,13 +53,16 @@
         <section class="intro">
 
             <div class="container head-intro">
-                <div id="profile-link" onclick="handlers.scrollBottom()" style="cursor: pointer;">
+                <div id="profile-link">
                     <span class="fa-stack">
                         <i class="fa fa-cog fa-spin fa-stack-2x fa-fw " aria-hidden="true"></i>
                         <i class="fas fa-stack-1x fa-chevron-circle-down"></i>
                     </span>
                     <h2 class="title">
-                        About me.
+                        <a href="#profile">
+                            About me.
+                        </a>
+
                     </h2>
                 </div>
 
@@ -237,7 +240,7 @@
 
 
     <div class="container d-flex flex-column align-items-start flex-md-row col-sm-12">
-        <div class="profile d-flex flex-column col-sm-12 col-md-7 ">
+        <div id="profile" class="profile d-flex flex-column col-sm-12 col-md-7 ">
             <div id="avatar">
                 <a title="Linkedin" href="https://www.linkedin.com/in/j3ang/" target="_blank"> <img src="assets/images/avatar.png" alt="Avatar"
                         class="avatar"></a>

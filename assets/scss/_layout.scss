@@ -459,16 +459,16 @@
     background: $color-alabaster;
     bottom: 0;
     left: 0; // padding: 5rem 0;
-    position: fixed;
-    right: 0;
-    z-index: -1;
+    // position: fixed;
+    // right: 0;
+    // z-index: -1;
 
-    #corner-overlay {
-        width: 0;
-        height: 100%;
-        border-left: 8px solid #21247b;
-        position: absolute;
-    }
+    // #corner-overlay {
+    //     width: 0;
+    //     height: 100vh;
+    //     border-left: 8px solid #21247b;
+    //     position: absolute;
+    // }
 
     #resume-download-link {
         color: #F44336;
