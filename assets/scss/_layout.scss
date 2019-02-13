@@ -60,7 +60,6 @@
 #major>a:hover {
     color: #F44336;
     -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
     transition: all 0.3s;
 }
 
@@ -71,7 +70,6 @@
     font-weight: 900;
     color: #F44336;
     -webkit-transition: all linear color 2s;
-    -o-transition: all linear color 2s;
     transition: all linear color 2s;
 }
 
@@ -215,10 +213,8 @@
             margin-left: -4.4rem;
             opacity: 0;
             -webkit-transition: all .5s ease-in-out;
-            -o-transition: all .5s ease-in-out;
             transition: all .5s ease-in-out;
             -webkit-transition-delay: .25s;
-            -o-transition-delay: .25s;
             transition-delay: .25s;
             z-index: 2;
         }
@@ -234,7 +230,6 @@
             left: 0;
             opacity: 0;
             -webkit-transition: all .5s ease-in-out;
-            -o-transition: all .5s ease-in-out;
             transition: all .5s ease-in-out;
             z-index: 1;
         }
@@ -381,7 +376,6 @@
             h2:after {
                 visibility: visible;
                 -webkit-transform: scaleX(1);
-                -ms-transform: scaleX(1);
                 transform: scaleX(1);
             }
 
@@ -443,7 +437,6 @@
                 position: relative;
                 left: 0;
                 -webkit-transition: all .3s ease-in-out 0s;
-                -o-transition: all .3s ease-in-out 0s;
                 transition: all .3s ease-in-out 0s;
 
                 &:before {
@@ -460,7 +453,6 @@
             position: relative;
             left: 0;
             -webkit-transition: all .3s ease-in-out 0s;
-            -o-transition: all .3s ease-in-out 0s;
             transition: all .3s ease-in-out 0s;
         }
     }
@@ -480,10 +472,8 @@
             background-color: $color-white;
             visibility: hidden;
             -webkit-transform: scaleX(0);
-            -ms-transform: scaleX(0);
             transform: scaleX(0);
             -webkit-transition: all .3s ease-in-out 0s;
-            -o-transition: all .3s ease-in-out 0s;
             transition: all .3s ease-in-out 0s;
         }
     }
@@ -527,7 +517,6 @@
         font-size: 1.5rem;
         border-bottom: solid 2px;
         -webkit-transition: ease-in-out 0.5s;
-        -o-transition: ease-in-out 0.5s;
         transition: ease-in-out 0.5s;
 
         &:hover {
