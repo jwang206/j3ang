@@ -81,17 +81,6 @@
     padding: 0 !important;
 }
 
-#profile-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
-#profile-link:hover .fa-cog,
-#profile-link:hover .fa-chevron-circle-down {
-    color: #F44336;
-}
 
 .btn-outline-primary {
     width: 100% !important;
@@ -129,6 +118,27 @@
 }
 
 .intro {
+
+
+    #getinTouch {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+        text-decoration: none;
+        border: solid;
+        padding: 0.8rem;
+        border-radius: 2rem;
+    }
+
+    #getinTouch:hover,
+    #getinTouch:hover .fa-cog,
+    #getinTouch:hover .fa-chevron-circle-down {
+        color: #F44336;
+
+    }
+
+
     @media (min-width: $breakpoint-medium) {
         p {
             font-size: 2.7rem;
