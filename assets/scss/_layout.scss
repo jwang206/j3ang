@@ -470,6 +470,11 @@
     //     position: absolute;
     // }
 
+    a,
+    .title a {
+        font-size: 1.8rem;
+    }
+
     #resume-download-link {
         color: #F44336;
         font-size: 1.5rem;
@@ -478,7 +483,6 @@
 
         &:hover {
             color: black;
-            border-bottom: solid 2px black;
         }
     }
 }
@@ -492,6 +496,10 @@
     }
 }
 
+.fab {
+    font-size: 3.5rem;
+    padding-right: 1rem;
+}
 
 #form_wrapper {
     max-width: 350px !important;
