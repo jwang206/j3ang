@@ -475,6 +475,18 @@
         font-size: 1.8rem;
     }
 
+    .social-icons a {
+        background: gold;
+        margin-right: 1rem;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        text-decoration: none !important;
+    }
+
     p {
         font-size: 1.6rem;
     }
@@ -489,26 +501,28 @@
             color: black;
         }
     }
-}
 
-.contact,
-.follow {
-    @media (min-width: $breakpoint-medium) {
-        float: left;
-        margin-bottom: 0;
-        width: 33.33333%;
+    .contact,
+    .follow {
+        @media (min-width: $breakpoint-medium) {
+            float: left;
+            margin-bottom: 0;
+            width: 33.33333%;
+        }
+    }
+
+    .fab {
+        font-size: 3.5rem;
+        padding: 0;
+    }
+
+    #form_wrapper {
+        max-width: 350px !important;
+        border-radius: 5px;
     }
 }
 
-.fab {
-    font-size: 3.5rem;
-    padding-right: 1rem;
-}
 
-#form_wrapper {
-    max-width: 350px !important;
-    border-radius: 5px;
-}
 
 ul#categories {
     display: flex;
