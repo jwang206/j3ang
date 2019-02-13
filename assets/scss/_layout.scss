@@ -457,6 +457,7 @@
 
 .footer {
     background: $color-alabaster;
+    border-left: 1.2rem solid #21247b;
     bottom: 0;
     left: 0; // padding: 5rem 0;
     // position: fixed;
@@ -612,7 +613,7 @@ ul#categories {
 .backtoTop:hover {
     color: #F44336;
     background: white;
-    border-left: 8px solid #21247b;
+    border-left: 1.2rem solid #21247b;
     display: flex;
     justify-content: center;
     align-items: center;
