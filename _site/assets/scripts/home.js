@@ -11,6 +11,8 @@
 //     });
 // });
 
+// $(window).scrollTop(0, 0);
+
 window.onload = function () {
 
     // init Isotope
@@ -29,7 +31,7 @@ window.onload = function () {
         $(this).addClass('active');
     });
 
-    $(window).scrollTop(0, 0);
+
 
 };
 
