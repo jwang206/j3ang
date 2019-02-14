@@ -41,7 +41,7 @@
     <header class="header">
     <div class="container">
 
-        <h1 class="logo" id="logo">
+        <h1 class="logo" id="top">
             <a title="J3ang" href="/">
                 <img src='/assets/images/j3-logo.svg' width="150rem" style="padding-top:10px" alt='j3-logo' />
             </a>
@@ -98,81 +98,83 @@
         </section>
     </main>
     <footer class="footer">
-    <div id="corner-overlay"></div>
-
-
-    <div class="container d-flex flex-column align-items-start flex-md-row col-sm-12">
-        <div id="getintouch" class="profile d-flex flex-column col-sm-12 col-md-7 ">
-            <div id="avatar">
-                <a title="Linkedin" href="https://www.linkedin.com/in/j3ang/" target="_blank"> <img src="/assets/images/avatar.png"
-                        alt="Avatar" class="avatar"></a>
-            </div>
-
-            <div id="detail">
-                <div id="info" class="mb-4">
-                    <h3 id="name">Alex Wang</h3>
-
-                    <a title="assets/j3ang_resume.pdf" href="/PDF.js/web/viewer.html?file=/assets/j3ang_resume.pdf" id="resume-download-link"
-                        target="_blank"><i class="fas fa-file-download"></i> Resume</a>
-
-                    <p id="major"><a href="https://appliedtech.iit.edu/information-technology-and-management/programs/undergraduate/degrees/bachelor-information-technolo-1"
-                            target="_blank">Information
-                            Technology and Management</a>
-                    </p>
-
-                    <p>BS - Illinois Institute of Technology '18</p>
+    <div id="card">
+        <div class="container d-flex flex-column align-items-start flex-md-row col-sm-12">
+            <div id="getintouch" class="profile d-flex flex-column col-sm-12 col-md-7 ">
+                <div id="avatar">
+                    <a title="Linkedin" href="https://www.linkedin.com/in/j3ang/" target="_blank"> <img src="/assets/images/avatar.png"
+                            alt="Avatar" class="avatar"></a>
                 </div>
 
-                <div id="connect" class="d-flex flex-column align-items-start ">
-                    <div class="contact mb-3 ">
-                        <h2>Contact</h2>
-                        <a title="j3ang.info@gmail.com" href="mailto:j3ang.info@gmail.com">j3ang.info@gmail.com</a><br>
+                <div id="detail">
+                    <div id="info" class="mb-4">
+                        <h3 id="name">Alex Wang</h3>
+
+                        <a title="assets/j3ang_resume.pdf" href="/PDF.js/web/viewer.html?file=/assets/j3ang_resume.pdf" id="resume-download-link"
+                            target="_blank"><i class="fas fa-file-download"></i> Resume</a>
+
+                        <p id="major"><a href="https://appliedtech.iit.edu/information-technology-and-management/programs/undergraduate/degrees/bachelor-information-technolo-1"
+                                target="_blank">Information
+                                Technology and Management</a>
+                        </p>
+
+                        <p>BS - Illinois Institute of Technology '18</p>
                     </div>
 
-                    <div class="follow ">
-                        <h2>Connect</h2>
-                        <ul class="social-icons">
-                            <li><a title="Linkedin" href="https://www.linkedin.com/in/j3ang/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a title="Twitter" href="https://twitter.com/j3ang_" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a title="Instagram" href="https://www.instagram.com/j3ang__/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a title="Github" href="https://github.com/j3ang" target="_blank"><i class="fab fa-github"></i></a></li>
-                        </ul>
+                    <div id="connect" class="d-flex flex-column align-items-start ">
+                        <div class="contact mb-3 ">
+                            <h2>Contact</h2>
+                            <a title="j3ang.info@gmail.com" href="mailto:j3ang.info@gmail.com">j3ang.info@gmail.com</a><br>
+                        </div>
+
+                        <div class="follow ">
+                            <h2>Connect</h2>
+                            <ul class="social-icons">
+                                <li><a title="Linkedin" href="https://www.linkedin.com/in/j3ang/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a title="Twitter" href="https://twitter.com/j3ang_" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a title="Instagram" href="https://www.instagram.com/j3ang__/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a title="Github" href="https://github.com/j3ang" target="_blank"><i class="fab fa-github"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+
+
             </div>
 
+            <div id="form_wrapper" class="d-flex flex-column justify-content-center bd-highlight col-sm-12 col-md-5  ">
 
-        </div>
+                <h3 class="mb-4">*How may I help you?</h3>
+                <form id="contact_form">
 
-        <div id="form_wrapper" class="d-flex flex-column justify-content-center bd-highlight col-sm-12 col-md-5  ">
+                    <div class="form-group mt-1">
+                        <label for="firstname">Name</label>
+                        <input class="form-control" type="text" id="firstname" required />
+                    </div>
 
-            <h3 class="mb-4">*How may I help you?</h3>
-            <form id="contact_form">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input class="form-control" type="email" id="email" size="30" required>
+                    </div>
 
-                <div class="form-group mt-1">
-                    <label for="firstname">Name</label>
-                    <input class="form-control" type="text" id="firstname" required />
-                </div>
+                    <div class="form-group">
+                        <label for="comment">Comment</label>
+                        <textarea class="form-control" id="comment" rows="4"></textarea>
+                    </div>
 
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input class="form-control" type="email" id="email" size="30" required>
-                </div>
+                    <button type="submit" class="btn btn-outline-primary form-group mt-4">Send</button>
 
-                <div class="form-group">
-                    <label for="comment">Comment</label>
-                    <textarea class="form-control" id="comment" rows="4"></textarea>
-                </div>
+                </form>
 
-                <button type="submit" class="btn btn-outline-primary form-group mt-4">Send</button>
-
-            </form>
-
+            </div>
         </div>
     </div>
 
-
-
+    <a href="#top" style="text-decoration: none">
+        <div class="backtoTop">
+            <i class="fas fa-2x fa-chevron-circle-up"></i>
+        </div>
+    </a>
 
 </footer>
 

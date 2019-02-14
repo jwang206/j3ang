@@ -56,7 +56,6 @@
     text-shadow: 0 0 5px #000, 0 0 5px #fff, 0 0 1px cyan, 0 0 5px cyan, 0 0 3px purple;
 }
 
-
 #major>a:hover {
     color: #F44336;
     -webkit-transition: all 0.3s;
@@ -79,7 +78,6 @@
     margin: 0 !important;
     padding: 0 !important;
 }
-
 
 .btn-outline-primary {
     width: 100% !important;
@@ -116,34 +114,34 @@
     padding: 0 0 5rem;
 }
 
+#getinTouch,
+#backtoTop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    border: solid;
+    padding: 0.8rem;
+    border-radius: 2rem;
+}
+
+#getinTouch:hover,
+#getinTouch:hover h2,
+#backtoTop:hover,
+#backtoTop:hover h2 {
+    color: white !important;
+    border-color: #F44336;
+    background: #F44336;
+}
+
 .intro {
-
-
-    #getinTouch {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        margin-bottom: 2rem;
-        text-decoration: none;
-        border: solid;
-        padding: 0.8rem;
-        border-radius: 2rem;
-    }
-
-    #getinTouch:hover,
-    #getinTouch:hover .fa-cog,
-    #getinTouch:hover .fa-chevron-circle-down {
-        color: #F44336;
-
-    }
-
-
     @media (min-width: $breakpoint-medium) {
         p {
             font-size: 2.7rem;
@@ -481,9 +479,12 @@
 
 .footer {
     background: $color-alabaster;
-    border-left: 1.2rem solid #21247b;
     bottom: 0;
     left: 0;
+
+    #card {
+        border-left: 1.2rem solid #21247b;
+    }
 
     a,
     .title a {
@@ -543,8 +544,6 @@
         border-radius: 5px;
     }
 }
-
-
 
 ul#categories {
     display: -webkit-box;
@@ -648,9 +647,7 @@ ul#categories {
 }
 
 .backtoTop:hover {
-    color: #F44336;
-    background: white;
-    border-left: 1.2rem solid #21247b;
+    color: #F44336; // background: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -666,10 +663,7 @@ ul#categories {
     @media (min-width: $breakpoint-medium) {
         margin-top: 3rem;
     }
-
 }
-
-
 
 .profile {
     margin-top: 3rem;
