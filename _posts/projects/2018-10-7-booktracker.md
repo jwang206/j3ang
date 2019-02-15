@@ -9,7 +9,7 @@ meta:
 project:
   title: "Book Tracker"
   url: "https://still-dawn-45633.herokuapp.com/"
-  type: "API"
+  type: "GoogleSheets API"
   logo: "/assets/images/projects/book_tracker/logo.png"
   tech: "GoogleSheets API"
 
