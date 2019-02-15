@@ -5,6 +5,9 @@
         "padding-top": "4rem"
     });
 
+    $('.github-corner').css('z-index', '1000');
+
+
 
 
     $(function () {
