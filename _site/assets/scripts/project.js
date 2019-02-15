@@ -1,11 +1,11 @@
 (function ($) {
-    $(document).scroll(function () {
-        if ($(window).scrollTop() > 100) {
-            $('.header').addClass('onTop');
-        } else {
-            $('.header').removeClass('onTop');
-        }
+
+    $('.content').css({
+        top: $('.header').height() + "px",
+        "padding-top": "4rem"
     });
+
+
 
     $(function () {
         $(window).on('load resize', function () {
@@ -22,6 +22,7 @@
                     offset_top: $('.header').outerHeight()
                 });
             }
+
         }
     });
 

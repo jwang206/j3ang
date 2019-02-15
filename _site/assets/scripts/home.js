@@ -33,15 +33,18 @@ window.onload = function () {
 
     $('.github-corner').css('visibility', 'visible');
 
-
-    $(document).scroll(function () {
-        if ($(window).scrollTop() > 100) {
-            $('.header').addClass('onTop');
+    // sticky tab with animation
+    $(window).scroll(function () {
+        if ($(this).scrollTop() < 100) {
+            $('.tabcontrol').stick_in_parent({
+                offset_top: $('.header').height()
+            });
         } else {
-            $('.header').removeClass('onTop');
+            $('.content').css({
+                top: $('.header').height() + "px"
+            });
         }
     });
-
 
     $('#aname').keyup(function () {
         $('.aname').addClass('typing');
@@ -64,29 +67,3 @@ window.onload = function () {
         }
     });
 };
-
-
-// var sr = ScrollReveal({
-//     origin: "bottom",
-//     distance: "64px",
-//     duration: 800,
-//     delay: 0,
-//     scale: 0
-// });
-
-// sr.reveal('.projects-list a');
-// sr.reveal('.posts-list a');
-
-// var header = anime({
-//     targets: '.header .overlay-div',
-//     translateY: 15,
-//     loop: true
-// });
-
-// anime.speed = 0.5;
-
-// var handlers = {
-//     scrollBottom: function () {
-//         window.scrollTo(0, document.body.scrollHeight);
-//     }
-// }
