@@ -11,10 +11,12 @@ body {
 }
 
 .header {
+    padding: 0;
     background: $color-black !important; // background-image: url(/assets/images/header-bg.jpg);
     background: no-repeat;
-    background-size: contain;
-    padding: 3rem 0;
+    background-size: contain; // padding: 3rem 0;
+    position: fixed;
+    width: 100%;
     z-index: 999;
     transition: all 0.3s ease;
 
@@ -38,10 +40,11 @@ body {
     }
 }
 
-header.header.is_stiky {
-    padding: 0;
-    transition: all 0.3s ease;
+.tabcontrol {
+    z-index: 999;
+    background: $color-black;
 }
+
 
 .logo {
     float: left;
@@ -501,6 +504,7 @@ header.header.is_stiky {
     background: rgba(0, 0, 0, .12);
     bottom: 0;
     left: 0;
+    margin-top: 10rem;
 
     #card {
         border-left: 1.2rem solid #21247b;
@@ -697,7 +701,8 @@ ul#categories {
 
 .tabs {
     margin: 0;
-    height: 25px;
+    padding: 1rem 0;
+    height: auto;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: -webkit-box;

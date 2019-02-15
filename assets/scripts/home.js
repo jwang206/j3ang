@@ -33,13 +33,16 @@ window.onload = function () {
 
     $('.github-corner').css('visibility', 'visible');
 
-    // sticky header with animation
+    // sticky tab with animation
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 25) {
-            $('.header').stick_in_parent();
-            $('.header').addClass("is_stiky");
+        if ($(this).scrollTop() < 100) {
+            $('.tabcontrol').stick_in_parent({
+                offset_top: $('.header').height()
+            });
         } else {
-            $('.header').removeClass("is_stiky");
+            $('.content').css({
+                top: $('.header').height() + "px"
+            });
         }
     });
 

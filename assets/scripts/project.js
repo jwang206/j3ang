@@ -1,13 +1,11 @@
 (function ($) {
-    // sticky header with animation
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 25) {
-            $('.header').stick_in_parent();
-            $('.header').addClass("is_stiky");
-        } else {
-            $('.header').removeClass("is_stiky");
-        }
+
+    $('.content').css({
+        top: $('.header').height() + "px",
+        "padding-top": "4rem"
     });
+
+
 
     $(function () {
         $(window).on('load resize', function () {
