@@ -13,6 +13,8 @@ project:
   logo: "/assets/images/projects/twinimagedesign/logo.png"
   tech: "MongoDB, Express.js, Angular 6, Node.js, Angular Material"
 
+github_url: "https://github.com/j3ang/TID-KEY"
+
 agency:
   title: "Twin Image Design"
   url: "https://http://www.twinimagedesign.com/"
