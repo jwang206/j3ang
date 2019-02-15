@@ -569,20 +569,20 @@
             input,
             label,
             textarea {
-                font-size: 2rem;
+                font-size: 2rem !important;
             }
 
             label {
+                font-size: 2rem;
                 color: gray;
                 left: 23px;
                 position: absolute;
-                top: 23px;
+                top: 30px;
                 transition: all, 150ms;
             }
 
             &.typing label {
-
-
+                font-size: 2rem;
                 color: #007bff;
                 font-weight: bold;
                 font-size: 10px;
@@ -606,7 +606,7 @@
             }
 
             input {
-                padding: 23px 23px 8px 23px;
+                padding: 30px 23px 8px 23px;
                 background: transparent;
             }
         }
@@ -638,7 +638,7 @@
 
         textarea {
             height: 240px;
-            padding: 23px 23px;
+            padding: 30px 23px;
             border-bottom: 1px darken(white, 10%) solid;
         }
     }
