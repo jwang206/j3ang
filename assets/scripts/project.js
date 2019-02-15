@@ -1,9 +1,11 @@
 (function ($) {
-    $(document).scroll(function () {
-        if ($(window).scrollTop() > 100) {
-            $('.header').addClass('onTop');
+    // sticky header with animation
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 25) {
+            $('.header').stick_in_parent();
+            $('.header').addClass("is_stiky");
         } else {
-            $('.header').removeClass('onTop');
+            $('.header').removeClass("is_stiky");
         }
     });
 
@@ -22,6 +24,7 @@
                     offset_top: $('.header').outerHeight()
                 });
             }
+
         }
     });
 
