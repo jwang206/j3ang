@@ -9,7 +9,7 @@ meta:
 project:
   title: "Office of Professional Development Brochure Design"
   url: "https://appliedtech.iit.edu/office-of-professional-development/international/about"
-  type: "Photoshop"
+  type: "Graphic"
   logo: "/assets/images/projects/icpbrochure/logo.png"
   tech: "Photoshop"
 

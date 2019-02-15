@@ -9,7 +9,7 @@ meta:
 project:
   title: "Prism Logo Design"
   url: "https://prismlogos.firebaseapp.com/"
-  type: "Adobe Illustrator"
+  type: "Graphic"
   logo: "/assets/images/projects/graphics/prism/logo.png"
   tech: "Adobe Illustrator"
 
