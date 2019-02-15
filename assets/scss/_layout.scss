@@ -11,6 +11,7 @@
     background: no-repeat;
     background-size: contain;
     padding: 3rem 0;
+    // z-index: 999;
 
     .overlay-div {
         position: absolute;
@@ -77,6 +78,7 @@
     font-weight: 900;
     margin: 0 !important;
     padding: 0 !important;
+    text-align: center;
 }
 
 .btn-outline-primary {
