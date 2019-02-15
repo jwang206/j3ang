@@ -828,6 +828,7 @@ span.post-meta {
     right: 20px;
     top: 0;
     z-index: 2;
+    visibility: hidden;
 
     @media (max-width: $breakpoint-medium) {
         right: 0;

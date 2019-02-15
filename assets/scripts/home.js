@@ -31,6 +31,8 @@ window.onload = function () {
         $(this).addClass('active');
     });
 
+    $('.github-corner').css('visibility', 'visible');
+
 
 
 
