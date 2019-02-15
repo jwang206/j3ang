@@ -566,6 +566,11 @@
         .aname {
             position: relative;
 
+            input,
+            label,
+            textarea {
+                font-size: 2rem;
+            }
 
             label {
                 color: gray;
@@ -576,6 +581,8 @@
             }
 
             &.typing label {
+
+
                 color: #007bff;
                 font-weight: bold;
                 font-size: 10px;
@@ -601,16 +608,13 @@
             input {
                 padding: 23px 23px 8px 23px;
                 background: transparent;
-
-
-
             }
         }
 
         .submit .btn {
             width: 100%;
-            padding: 1rem;
-            font-size: 1rem;
+            padding: 2rem;
+            font-size: 2rem;
             font-weight: bold;
         }
     }
