@@ -174,7 +174,7 @@
     li {
         margin-bottom: 3rem;
 
-        @media (max-width: $breakpoint-medium) {
+        @media (max-width: $breakpoint-small) {
             width: 100%;
         }
 
@@ -830,7 +830,7 @@ span.post-meta {
     z-index: 2;
     visibility: hidden;
 
-    @media (max-width: $breakpoint-medium) {
+    @media (max-width: $breakpoint-small) {
         right: 0;
     }
 }
