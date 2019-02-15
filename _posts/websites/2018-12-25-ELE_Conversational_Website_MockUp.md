@@ -8,10 +8,10 @@ meta:
 
 project:
   title: "2019 ELE Conversational Website Mock Up"
-  type: "PHOTOSHOP, SKETCH, INVISION"
+  type: "Website"
   url: "https://invis.io/4CPX4BAV7MY#/340303858_Desktop"
   logo: "/assets/images/projects/ELE/logo.jpg"
-  tech: "Photoshop"
+  tech: "PHOTOSHOP, SKETCH, INVISION"
 
 agency:
   title: "Executive Learning Exchange"

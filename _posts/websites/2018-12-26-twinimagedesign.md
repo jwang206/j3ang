@@ -8,7 +8,7 @@ meta:
 
 project:
   title: "Twin Image Design Website"
-  type: "MEAN"
+  type: "Website"
   url: "https://tid-key.herokuapp.com/"
   logo: "/assets/images/projects/twinimagedesign/logo.png"
   tech: "MongoDB, Express.js, Angular 6, Node.js, Angular Material"
