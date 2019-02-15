@@ -97,8 +97,7 @@
     color: antiquewhite; // padding: 7rem 0 0;
     // margin-bottom: 31.24rem;
     margin-top: -2px;
-    position: relative;
-    top: 0;
+    position: relative; // top: 0;
     left: 0;
     z-index: 1;
 
@@ -110,7 +109,7 @@
 
 .intro,
 .projects {
-    padding: 0 0 5rem;
+    // padding: 0 0 5rem 0;
 }
 
 #getinTouch,
@@ -141,6 +140,8 @@
 }
 
 .intro {
+    position: relative !important;
+
     @media (min-width: $breakpoint-medium) {
         p {
             font-size: 2.7rem;
@@ -288,16 +289,20 @@
         @media (min-width: $breakpoint-medium) {
             float: right;
             right: 0;
-            width: 40%;
-            position: absolute;
-            right: 5%;
+            width: 50% !important;
+            padding: 0 5%; // float: right;
+            // right: 0;
+            // // left: 0;
+            // width: 40%;
+            // position: absolute;
+            // right: 5%;
         }
     }
 
     aside {
-        margin-left: -3rem;
-        margin-right: -3rem;
 
+        // margin-left: -3rem;
+        // margin-right: -3rem;
         .videoWrapper {
             position: relative;
             padding-bottom: 56.25%;
@@ -320,7 +325,7 @@
 
         @media (min-width: $breakpoint-medium) {
             float: left;
-            width: 55%;
+            width: 50%;
         }
     }
 
@@ -360,7 +365,7 @@
         }
     }
 
-    img {
+    li img {
         width: 100%;
     }
 }
@@ -497,6 +502,7 @@
     .social-icons a {
         background: gold;
         margin-right: 1rem;
+        margin-bottom: 1rem;
         height: 50px;
         width: 50px;
         display: -webkit-box;
@@ -531,8 +537,7 @@
     .follow {
         @media (min-width: $breakpoint-medium) {
             float: left;
-            margin-bottom: 0;
-            width: 33.33333%;
+            margin-bottom: 0; // width: 33.33333%;
         }
     }
 
@@ -603,7 +608,6 @@
         .aname {
             width: calc(50% - 1px);
 
-
             @media (max-width: 500px) {
                 width: 100%;
                 border-bottom: 1px #e6e6e6 solid;
@@ -650,10 +654,7 @@
     .aname {
         float: left;
     }
-
 }
-
-
 
 ul#categories {
     display: -webkit-box;
@@ -820,9 +821,7 @@ span.post-meta {
     }
 }
 
-
 // github cover 
-
 .github-corner {
     position: absolute;
     right: 20px;
@@ -865,4 +864,18 @@ span.post-meta {
     .github-corner .octo-arm {
         animation: octocat-wave 560ms ease-in-out
     }
+}
+
+// .header {
+//     position: fixed;
+//     background: gold;
+//     z-index: 2;
+//     width: 100%; // padding: 0;
+// }
+.onTop {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    padding: 0;
+    transition: ease-in-out, 1.11s;
 }

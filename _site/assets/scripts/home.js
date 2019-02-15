@@ -34,6 +34,13 @@ window.onload = function () {
     $('.github-corner').css('visibility', 'visible');
 
 
+    $(document).scroll(function () {
+        if ($(window).scrollTop() > 100) {
+            $('.header').addClass('onTop');
+        } else {
+            $('.header').removeClass('onTop');
+        }
+    });
 
 
     $('#aname').keyup(function () {
