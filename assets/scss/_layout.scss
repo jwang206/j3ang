@@ -81,7 +81,6 @@
 
 .btn-outline-primary {
     width: 100% !important;
-    margin-bottom: 3rem !important;
 }
 
 .fa-heart {
@@ -478,7 +477,7 @@
 }
 
 .footer {
-    background: $color-alabaster;
+    background: rgba(0, 0, 0, .12);
     bottom: 0;
     left: 0;
 
@@ -516,7 +515,6 @@
     #resume-download-link {
         color: #F44336;
         font-size: 1.5rem;
-        border-bottom: solid 2px;
         -webkit-transition: ease-in-out 0.5s;
         transition: ease-in-out 0.5s;
 
@@ -540,10 +538,114 @@
     }
 
     #form_wrapper {
-        max-width: 350px !important;
         border-radius: 5px;
     }
+
+    input,
+    textarea {
+        border: none;
+        outline: none;
+        resize: none;
+        width: 100%;
+    }
+
+    label {
+        &:hover {
+            cursor: text;
+        }
+    }
+
+    // Form Styles
+    .contact-form {
+        margin: 3rem 0;
+        background: white;
+        border-radius: 5px;
+
+        .email,
+        .message,
+        .aname {
+            position: relative;
+
+
+            label {
+                color: gray;
+                left: 23px;
+                position: absolute;
+                top: 23px;
+                transition: all, 150ms;
+            }
+
+            &.typing label {
+                color: #007bff;
+                font-weight: bold;
+                font-size: 10px;
+                top: 7px;
+            }
+
+            input:focus,
+            textarea:focus {
+                background: lighten(gray, 35%);
+            }
+        }
+
+        .email,
+        .aname {
+            width: calc(50% - 1px);
+
+
+            @media (max-width: 500px) {
+                width: 100%;
+                border-bottom: 1px #e6e6e6 solid;
+            }
+
+            input {
+                padding: 23px 23px 8px 23px;
+                background: transparent;
+
+
+
+            }
+        }
+
+        .submit .btn {
+            width: 100%;
+            padding: 1rem;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    }
+
+    .email {
+        border-left: 1px darken(white, 10%) solid;
+        float: right;
+
+        @media (max-width: 500px) {
+            border-left: none;
+        }
+    }
+
+    .message {
+        border-top: 1px darken(white, 10%) solid;
+        clear: both;
+
+        @media (max-width: 500px) {
+            border-top: none;
+        }
+
+        textarea {
+            height: 240px;
+            padding: 23px 23px;
+            border-bottom: 1px darken(white, 10%) solid;
+        }
+    }
+
+    .aname {
+        float: left;
+    }
+
 }
+
+
 
 ul#categories {
     display: -webkit-box;
@@ -673,6 +775,7 @@ ul#categories {
         width: 150px;
         height: auto;
         border-radius: 50%;
+        box-shadow: rgba(black, 0.1) 0 1px 3px 0;
     }
 
     #detail {
