@@ -8,7 +8,7 @@ meta:
 
 project:
   title: "DIY Arduino TV Ambien Light"
-  type: "Arduino"
+  type: "Project"
   url: "https://www.instagram.com/p/BV8gTfhBGwF/?taken-by=jj.13ang"
   logo: "/assets/images/projects/ambientlight/logo.gif"
   tech: "Arduino"
