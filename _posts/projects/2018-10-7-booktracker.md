@@ -13,6 +13,8 @@ project:
   logo: "/assets/images/projects/book_tracker/logo.png"
   tech: "GoogleSheets API"
 
+github_url: "https://github.com/j3ang/Google-Sheets-Book-API"
+
 agency:
   title: "Google Sheets API"
   url: "https://github.com/j3ang/Google-Sheets-Book-API"
