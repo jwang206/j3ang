@@ -9,7 +9,7 @@ meta:
 project:
   title: "Jacques International Language Academy Promo Video"
   url: "https://www.youtube.com/watch?v=6xwdq8DE8vw"
-  type: "Final Cut Pro"
+  type: "Video"
   logo: "/assets/images/projects/JilaPromo/logo.png"
   tech: "Final Cut Pro"
 

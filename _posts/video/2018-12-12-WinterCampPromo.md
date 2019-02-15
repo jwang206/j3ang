@@ -9,7 +9,7 @@ meta:
 project:
   title: "Lingtong Winter Camp Promo"
   url: "http://www.lingtonglz.com/"
-  type: "Final Cut Pro"
+  type: "Video"
   logo: "/assets/images/projects/LingtongPromo/logo.png"
   tech: "Final Cut Pro"
 
