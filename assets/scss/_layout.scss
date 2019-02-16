@@ -45,7 +45,6 @@ body {
     background: $color-black;
 }
 
-
 .logo {
     float: left;
     font-size: 1.8rem;
@@ -282,37 +281,22 @@ body {
     position: relative;
     top: 0;
 
-    @media (min-width: $breakpoint-medium) {
-
-        // margin-top: -21rem;
-        .article-wrapper {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-        }
-    }
-
     .container {
         max-width: 100%;
     }
 
     article {
-        margin-bottom: 3rem;
+        // margin-bottom: 3rem;
+        right: 0;
 
         @media (min-width: $breakpoint-medium) {
             float: right;
-            right: 0;
             width: 50%;
             padding: 0 0 0 5%;
         }
     }
 
     aside {
-
-        // margin-left: -3rem;
-        // margin-right: -3rem;
         .videoWrapper {
             position: relative;
             padding-bottom: 56.25%;
@@ -382,6 +366,7 @@ body {
 
 .project-navigation {
     background: $color-black;
+    margin-top: 5rem;
     padding: 5rem 0;
 
     a {
@@ -396,6 +381,7 @@ body {
             }
 
             &.prev {
+
                 span {
                     left: 7px;
                 }
@@ -426,6 +412,7 @@ body {
         }
 
         &:nth-of-type(1) {
+
             @media (min-width: $breakpoint-xsmall) {
                 float: left;
             }
@@ -441,6 +428,7 @@ body {
         }
 
         &.next {
+
             span {
                 &:after {
                     content: "\02192";
@@ -710,7 +698,6 @@ ul#categories {
     margin-bottom: 7rem;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-
 
     a {
         color: wheat;
