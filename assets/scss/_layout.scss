@@ -304,13 +304,8 @@ body {
         @media (min-width: $breakpoint-medium) {
             float: right;
             right: 0;
-            width: 50% !important;
-            padding: 0 5%; // float: right;
-            // right: 0;
-            // // left: 0;
-            // width: 40%;
-            // position: absolute;
-            // right: 5%;
+            width: 50%;
+            padding: 0 0 0 5%;
         }
     }
 
