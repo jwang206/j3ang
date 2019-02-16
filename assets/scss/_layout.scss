@@ -700,6 +700,7 @@ ul#categories {
 }
 
 .tabs {
+    width: 100%;
     margin: 0;
     padding: 1rem 0;
     height: auto;
@@ -714,6 +715,7 @@ ul#categories {
     margin-bottom: 7rem;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+
 
     a {
         color: wheat;
