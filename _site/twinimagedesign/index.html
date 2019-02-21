@@ -16,12 +16,20 @@
 <link rel="manifest" href="/manifest.json">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="theme-color" content="#ffffff">
+<meta property="og:title" content="j3ang" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://j3ang.me" />
+<meta property='og:image' content="http://j3ang.me/assets/images/j3-logo.jpeg" />
+<meta property='og:description' content="Alex's portfolio website" />
 <link rel="stylesheet" href="/assets/css/style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA"
     crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+
+
 <script type="text/javascript">
     window.$crisp = [];
     window.CRISP_WEBSITE_ID = "7ca09844-fce6-4227-91b2-84526b49eada";
@@ -92,20 +100,17 @@
                         <p>2018</p>
                     </div>
                 </article>
-                <aside>
+                <aside class="pr-4">
                     <ul>
                         
-                        <li>
-                            <img src="/assets/images/projects/twinimagedesign/1.png" alt="twinimage website on a tablet device" />
-                        </li>
+                        <a data-fancybox="gallery" href="/assets/images/projects/twinimagedesign/1.png"><img src="/assets/images/projects/twinimagedesign/1.png"
+                                alt="twinimage website on a tablet device" /></a>
                         
-                        <li>
-                            <img src="/assets/images/projects/twinimagedesign/2.png" alt="twinimage website on a laptop device" />
-                        </li>
+                        <a data-fancybox="gallery" href="/assets/images/projects/twinimagedesign/2.png"><img src="/assets/images/projects/twinimagedesign/2.png"
+                                alt="twinimage website on a laptop device" /></a>
                         
-                        <li>
-                            <img src="/assets/images/projects/twinimagedesign/3.png" alt="twinimage website on a mobile device" />
-                        </li>
+                        <a data-fancybox="gallery" href="/assets/images/projects/twinimagedesign/3.png"><img src="/assets/images/projects/twinimagedesign/3.png"
+                                alt="twinimage website on a mobile device" /></a>
                         
 
                         
@@ -114,16 +119,35 @@
             </div>
     </section>
     <section class="project-navigation">
-        <div class="container d-flex flex-column flex-sm-row justify-content-between">
+        <div class="container d-flex flex-column flex-sm-row justify-content-between p-0">
             <a title="Previous 2019 ELE Conversational Website Mock Up" href="/ELE_Conversational_Website_MockUp/"
-                class="prev col-xs-12 col-md-6">
-                <span class="h2">Previous</span>
-                <h2>2019 ELE Conversational Website Mock Up</h2>
+                class="prev d-flex  flex-column col-xs-12 col-md-6 p-0">
+
+                <div class="img-wrapper col-md-12 ">
+                    <span class="h2 text-align-start">Previous</span>
+                    <img class="col-xs-2 col-sm-12 p-0 " src="/assets/images/projects/ELE/logo.jpg"
+                        alt="" />
+                </div>
+
+                <div class="col-xs-12 col-md-12">
+                    <h2 class="pt-4 pt-md-0">2019 ELE Conversational Website Mock Up</h2>
+                </div>
+
             </a>
 
-            <a title="Next " href="" class="next col-xs-12 col-md-6">
-                <span class="h2">Next</span>
-                <h2></h2>
+            <a title="Next " href="" class="next d-flex flex-column col-xs-12 col-md-6 p-0">
+
+                <div class="img-wrapper col-md-12">
+                    <span class="h2 text-align-start">Next</span>
+                    <img class="col-xs-2 col-sm-12 p-0" src="" alt="" />
+                </div>
+
+                <div class="col-xs-12 col-md-12">
+                    
+                    <h2 class="pt-4 pt-md-0"></h2>
+                    
+                </div>
+
             </a>
 
             
@@ -241,6 +265,10 @@
 </footer>
 
     <script src="/assets/scripts/vendor/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- <script src="/assets/scripts/vendor/scrollreveal.min.js"></script> -->
     <script src="/assets/scripts/vendor/sticky-kit.min.js"></script>

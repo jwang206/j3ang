@@ -20,12 +20,10 @@ agency:
 
 videos:
   - video:
-    url: "https://www.youtube.com/embed/FFhIU01mG9A"
+    url: "https://www.youtube.com/watch?v=FFhIU01mG9A&feature=youtu.be"
+    img: "https://img.youtube.com/vi/FFhIU01mG9A/mqdefault.jpg"
     alt: "LingtongPromo"
-  - video:
-    url: ""
-    alt: ""
+
 
 ---
 <p>Video Editor</p>
- 
