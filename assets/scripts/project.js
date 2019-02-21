@@ -19,6 +19,11 @@
         // Options will go here
     });
 
+    $('[data-fancybox="videos"]').fancybox({
+        // Options will go here
+    });
+
+
 
     $(window).on('resize scroll', function () {
 
