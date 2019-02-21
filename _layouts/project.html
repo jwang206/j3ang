@@ -64,7 +64,9 @@
                         {% endfor %}
 
                         {% for video in page.videos %}
-                        <a data-fancybox href="{{ video.url | prepend: site.baseurl }}">
+                        <a data-fancybox class="video-button position-relative d-inline-block" href="{{ video.url | prepend: site.baseurl }}">
+
+                            <!-- <div class="play-overlay"><i class="fas fa-play-circle fa-4x"></i></div> -->
                             <img class="card-img-top img-fluid" src="{{ video.img | prepend: site.baseurl }}" />
                         </a>
                         {% endfor %}
