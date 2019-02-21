@@ -20,12 +20,9 @@ agency:
 
 videos:
   - video:
-    url: "https://www.youtube.com/embed/6xwdq8DE8vw"
+    url: "https://www.youtube.com/watch?v=6xwdq8DE8vw"
+    img: "http://img.youtube.com/vi/6xwdq8DE8vw/mqdefault.jpg"
     alt: "Jacques International Language Academy Promo"
-  - video:
-    url: ""
-    alt: ""
 
 ---
 <p>Video Editor</p>
- 
