@@ -22,14 +22,14 @@ agency:
 
 videos:
   - video:
-    url: "https://www.youtube.com/watch?v=cIgN2AngjK4"
+    url: "https://www.youtube.com/watch?v=cIgN2AngjK4&feature=youtu.be"
     img: "http://img.youtube.com/vi/cIgN2AngjK4/maxresdefault.jpg"
     alt: "Vandyhack Influx Demo"
 images:
   - image:
     url: "/assets/images/projects/vandyhack/page1.png"
     alt: "Vandyhack Influx Demo"
-    
+
 ---
 <p>An analytic tool for business finding right influencer for marketing. </p>
  
