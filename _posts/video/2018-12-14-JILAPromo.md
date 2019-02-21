@@ -21,7 +21,7 @@ agency:
 videos:
   - video:
     url: "https://www.youtube.com/watch?v=6xwdq8DE8vw"
-    img: "http://img.youtube.com/vi/6xwdq8DE8vw/mqdefault.jpg"
+    img: "http://img.youtube.com/vi/6xwdq8DE8vw/hqdefault.jpg"
     alt: "Jacques International Language Academy Promo"
 
 ---

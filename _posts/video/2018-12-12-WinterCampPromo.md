@@ -21,7 +21,7 @@ agency:
 videos:
   - video:
     url: "https://www.youtube.com/watch?v=FFhIU01mG9A&feature=youtu.be"
-    img: "https://img.youtube.com/vi/FFhIU01mG9A/mqdefault.jpg"
+    img: "https://img.youtube.com/vi/FFhIU01mG9A/hqdefault.jpg"
     alt: "LingtongPromo"
 
 
