@@ -313,6 +313,10 @@ body {
             }
         }
 
+        a[data-fancybox="videos"] {
+            width: 100%;
+        }
+
         .video-button {
             &:before {
                 position: absolute;
