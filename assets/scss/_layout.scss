@@ -84,7 +84,6 @@ body {
             text-decoration: none;
 
             li {
-
                 color: whitesmoke;
                 -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
                 animation: neon2 2.5s ease-in-out infinite;
@@ -811,13 +810,12 @@ ul#categories {
         font-family: $font-gordita;
         font-weight: bolder;
         text-transform: uppercase;
-        font-size: 2.5rem !important;
+        font-size: 2rem !important;
 
         /* line-height: 100% !important; */
         /* border-radius: 2px 2px 0 0; */
         &:hover {
             color: whitesmoke;
-           
             -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
             animation: neon2 1.5s ease-in-out infinite;
         }
