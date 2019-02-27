@@ -13,6 +13,8 @@ project:
   logo: "/assets/images/projects/icpbrochure/logo.png"
   tech: "Photoshop"
 
+role: "Graphic Designer"
+
 agency:
   title: "Office of Professional Developement \n Illinois Institute of Technology"
   url: "https://appliedtech.iit.edu/office-of-professional-development/international/about"

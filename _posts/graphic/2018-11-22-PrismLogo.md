@@ -13,6 +13,8 @@ project:
   logo: "/assets/images/projects/graphics/prism/logo.png"
   tech: "Adobe Illustrator"
 
+role: "Graphic Designer"
+
 agency:
   title: "Prism - \n\n Illinois Institute of Technology"
   url: "https://iit.campuslabs.com/engage/organization/Prism"

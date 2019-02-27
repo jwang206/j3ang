@@ -13,6 +13,8 @@ project:
   logo: "/assets/images/projects/LingtongPromo/logo.png"
   tech: "Final Cut Pro"
 
+role: "Video Editor"
+
 agency:
   title: "泸州市灵通艺术学校"
   url: "http://www.lingtonglz.com/"
@@ -26,4 +28,4 @@ videos:
 
 
 ---
-<p>Video Editor</p>
+<p>Winter Camp promotional video made with Final Cur Pro. </p>

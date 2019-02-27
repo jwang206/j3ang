@@ -13,11 +13,6 @@ project:
   logo: "/assets/images/projects/ambientlight/logo.gif"
   tech: "Arduino"
 
-agency:
-  title: "Twin Image Design"
-  url: "https://www.instagram.com/p/BV8gTfhBGwF/?taken-by=jj.13ang"
-  year: "2017"
-
 images:
   - image:
     url: "/assets/images/projects/ambientlight/logo.gif"

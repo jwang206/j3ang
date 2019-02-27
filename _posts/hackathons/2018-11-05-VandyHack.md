@@ -13,6 +13,8 @@ project:
   logo: "/assets/images/projects/vandyhack/logo.png"
   tech: "Node.js, Express, Pug, Ejs,Chart.js, Python, Machine Learning"
 
+role: "Data Visualizer"
+
 github_url: "https://github.com/j3ang/VandyHack2018-vanderbilt-university"
 
 agency:

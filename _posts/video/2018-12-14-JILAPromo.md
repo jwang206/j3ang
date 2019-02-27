@@ -13,6 +13,8 @@ project:
   logo: "/assets/images/projects/JilaPromo/logo.png"
   tech: "Final Cut Pro"
 
+role: "Website Content Manager / Developer"
+
 agency:
   title: "Jacques International Language Academy"
   url: "https://www.jila-chicago.us/"
