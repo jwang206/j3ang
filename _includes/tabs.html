@@ -1,37 +1,21 @@
-<div class="tabcontrol container">
-    <ul class="tabcontrol tabs">
-        {% for tab in site.data.tabs %}
-        <li class="tabcontrol tab {% if {tab[1].active %}active{% endif %}" data-name="{{tab[1].name}}" data-target="tab_{{include.id}}"
-            data-source="{{include.id}}__{{tab[1].source}}">
-            {{tab[1].title}}
-        </li>
-        {% if tab[1].active %}
-        {% assign defaultsource = tab[1].source %}
+<nav class="navbar navbar-expand-lg navbar-dark">
 
-        {% endif %}
-        {% if tab[1].content %}
-        <div id="{{include.id}}__{{tab[1].source}}" class="hidden">
-            {{tab[1].content | markdownify }}
-        </div>
-        {% endif %}
-        {% endfor %}
-    </ul>
-    <div id="tab_{{include.id}}" class="tabcontrol-body" data-defaultsource="{{include.id}}__{{defaultsource}}">
-        <div class="container">
-            <ul class="projects-list">
-                {% for item in site.categories.projects reversed %}
-                <li>
-                    <a href="{{ item.url | prepend: site.baseurl }}">
-                        <div class="img-wrapper">
-                            <img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
-                        </div>
-                        <span class="h2">{{ item.project.type }}</span>
-                        <h3>{{ item.project.title }}</h3>
-                    </a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse tabcontrol tabs button-group filter-button-group" id="navbarNav">
+        <ul class="navbar-nav justify-content-center col-sm-12">
+            {% for category in site.categories %}
+            <a class="button tab" data-filter=".{{ category | first }}">
+                <li class="nav-item"> {{ category | first }} </li>
+            </a>
+            {% endfor %}
+            <a class="button active tab" data-filter="*">
+                <li class="nav-item"> All </li>
+            </a>
+        </ul>
     </div>
-</div>
+
+</nav>
