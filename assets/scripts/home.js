@@ -39,7 +39,6 @@ window.onload = function () {
             $('.navbar').stick_in_parent({
                 offset_top: $('.header').height()
             });
-
         } else {
             $('.content').css({
                 top: $('.header').height() + "px"

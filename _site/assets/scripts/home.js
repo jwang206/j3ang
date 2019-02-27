@@ -36,7 +36,7 @@ window.onload = function () {
     // sticky tab with animation
     $(window).scroll(function () {
         if ($(this).scrollTop() < 100) {
-            $('.tabcontrol').stick_in_parent({
+            $('.navbar').stick_in_parent({
                 offset_top: $('.header').height()
             });
         } else {
