@@ -110,12 +110,9 @@ body {
 }
 
 .collapsing {
-    position: relative;
-    height: 0;
-    overflow: hidden;
-    -webkit-transition: height .35s ease;
-    -o-transition: height .35s ease;
-    transition: height .35s ease;
+    -webkit-transition: height .15s ease;
+    -o-transition: height .15s ease;
+    transition: height .15s ease;
 }
 
 #site-description {
