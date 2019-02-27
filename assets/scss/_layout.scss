@@ -342,9 +342,14 @@ body {
         // margin-bottom: 3rem;
         right: 0;
 
+        .h2 {
+            color: burlywood !important;
+        }
+
         a {
             transition: all 0.2s ease-in-out;
             text-decoration: none !important;
+
 
             &.next {
                 span {
