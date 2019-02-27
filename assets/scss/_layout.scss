@@ -218,6 +218,15 @@ body {
 }
 
 .projects-list {
+    span{
+color: white;
+
+    }
+
+    h3 {
+        color: burlywood;
+    }
+
     @media (min-width: $breakpoint-small) {
         margin-left: -1.5rem;
         margin-right: -1.5rem;
@@ -349,7 +358,6 @@ body {
         a {
             transition: all 0.2s ease-in-out;
             text-decoration: none !important;
-
 
             &.next {
                 span {
