@@ -41,17 +41,27 @@
                 <article>
                     <span class="h2">Project Title</span>
                     <h1>
-                        <a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{
-                            page.project.title }}</a>
+                        <a class="next" href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}"
+                            rel="nofollow">
+                            <span>{{page.project.title }}</span></a>
                     </h1>
+                    {% if page.role %}
                     <span class="h2">Role</span>
-                    {{ page.content }}
+                    <p>{{ page.role }}</p>
+                    {% endif %}
                     <div class="project-meta">
                         <span class="h2">Technologies</span>
                         <p>{{ page.project.tech }}</p>
+                        <span class="h2">Description</span>
+                        {{ page.content }}
+
+                        {% if page.role %}
                         <span class="h2">Agency</span>
-                        <p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{
-                                page.agency.title }}</a></p>
+                        <p><a class="next" title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank"
+                                rel="nofollow">
+                                <span>{{page.agency.title }}</span></a></p>
+                        {% endif %}
+
                         <span class="h2">Year</span>
                         <p>{{ page.agency.year }}</p>
                     </div>
