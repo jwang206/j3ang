@@ -5,7 +5,7 @@ html {
 body {
     background: $color-white-sand;
     color: $color-black;
-    font-family: $font-poppins;
+    font-family: $font-gordita;
     font-size: 1.8em;
     line-height: 1.6;
     font-weight: 600;
@@ -25,7 +25,7 @@ h2,
 .h2 {
     color: $color-silver-chalice;
     display: block;
-    font-family: $font-lekton;
+    font-family: $font-gordita;
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: .2rem;
@@ -92,7 +92,7 @@ code {
     background: $color-white;
     border: 1px solid $color-silver-chalice;
     border-radius: 3px;
-    font-family: $font-lekton;
+    font-family: $font-gordita;
     font-size: 1.5rem;
     padding: .1rem .4rem;
 
@@ -106,7 +106,7 @@ dl {
 
     dt,
     dd {
-        font-family: $font-lekton;
+        font-family: $font-gordita;
     }
 
     dt {
@@ -152,7 +152,7 @@ table {
 
     th,
     td {
-        font-family: $font-lekton;
+        font-family: $font-gordita;
         font-weight: 400;
         text-align: left;
         padding: .5rem 1rem;
