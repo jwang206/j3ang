@@ -8,11 +8,11 @@
     <div class="collapse navbar-collapse tabcontrol tabs button-group filter-button-group" id="navbarNav">
         <ul class="navbar-nav justify-content-center col-sm-12">
             {% for category in site.categories %}
-            <a class="button tab" data-filter=".{{ category | first }}">
+            <a class="button tab" data-filter=".{{ category | first }}" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <li class="nav-item"> {{ category | first }} </li>
             </a>
             {% endfor %}
-            <a class="button active tab" data-filter="*">
+            <a class="button active tab" data-filter="*" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <li class="nav-item"> All </li>
             </a>
         </ul>
