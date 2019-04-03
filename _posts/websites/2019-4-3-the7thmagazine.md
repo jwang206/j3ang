@@ -10,7 +10,7 @@ project:
   title: "The 7th Magazine"
   type: "Website"
   url: "http://the7thmagazine.com/"
-  logo: "/assets/images/projects/websites/the7thmagazine/logo.png"
+  logo: "/assets/images/projects/websites/the7thmagazine/home-1.jpg"
   tech: "WordPress, Plugins"
 
 agency:
