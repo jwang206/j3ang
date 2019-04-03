@@ -9,7 +9,7 @@ meta:
 project:
   title: "The 7th Magazine"
   type: "Website"
-  url: "http://the7thmagazinw.com/"
+  url: "http://the7thmagazine.com/"
   logo: "/assets/images/projects/websites/the7thmagazine/logo.png"
   tech: "WordPress, Plugins"
 
