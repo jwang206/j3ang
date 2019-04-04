@@ -93,38 +93,41 @@
             </div>
     </section>
     <section class="project-navigation">
-        <div class="container d-flex flex-column  flex-sm-row justify-content-between p-0">
+        <div class="container " id="thumb-wrapper">
+            {% if page.next.project.title  %}
             <a title="Next {{ page.next.project.title }}" href="{{ page.next.url | prepend: site.baseurl }}"
-                class="prev d-flex flex-column flex-lg-row col-xs-12 col-md-6 p-0">
+                class="prev d-flex flex-column ">
 
-                <div class="img-wrapper col-md-12 col-lg-5">
-                    <span class="h2 text-align-start">Previous</span>
-                    <img class="col-xs-2 col-sm-12 p-0" src="{{ page.next.project.logo | prepend: site.baseurl }}"
-                        alt="{{ post.project.title }}" />
-                </div>
+                <span class="h2 text-align-start">Previous</span>
 
-                <div class="col-xs-12 col-md-12 col-lg-7 pt-lg-5">
-                    {% if page.previous %}
-                    <h2 class="pt-4 pt-md-0">{{ page.next.project.title }}</h2>
-                    {% endif %}
+                <div id="project-thumb-container">
+                    <img src="{{ page.next.project.logo | prepend: site.baseurl }}" alt="{{ post.project.title }}" />
+                    <div class="">
+                        <h2 class=""">{{ page.next.project.title }}</h2>
+                    </div>
                 </div>
+            </a>
+            {% endif %}
+
+            {% if page.previous.project.title  %}
+            <a title=" Previous {{ page.previous.project.title }}"
+                            href="{{ page.previous.url | prepend: site.baseurl }}" class="next d-flex flex-column ">
+
+                            <span class="h2 text-align-start">Next</span>
+
+                            <div id="project-thumb-container">
+                                <img class="" src="{{ page.previous.project.logo | prepend: site.baseurl }}"
+                                    alt="{{ post.project.title }}" />
+
+                                <div class="">
+                                    <h2 class="">{{ page.previous.project.title }}</h2>
+                                </div>
+                            </div>
+
 
             </a>
+            {% endif %}
 
-            <a title="Previous {{ page.previous.project.title }}" href="{{ page.previous.url | prepend: site.baseurl }}"
-                class="next d-flex flex-column flex-lg-row col-xs-12 col-md-6 p-0">
-
-                <div class="img-wrapper col-md-12 col-lg-5">
-                    <span class="h2 text-align-start">Next</span>
-                    <img class="col-xs-2 col-sm-12 p-0 " src="{{ page.previous.project.logo | prepend: site.baseurl }}"
-                        alt="{{ post.project.title }}" />
-                </div>
-
-                <div class="col-xs-12 col-md-12 col-lg-7 pt-lg-5">
-                    <h2 class="pt-4 pt-md-0">{{ page.previous.project.title }}</h2>
-                </div>
-
-            </a>
 
 
 
