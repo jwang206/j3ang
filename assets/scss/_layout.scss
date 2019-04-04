@@ -355,8 +355,8 @@ body {
     }
 
     article {
-        // margin-bottom: 3rem;
         right: 0;
+        margin-bottom: 3rem;
 
         .h2 {
             color: burlywood !important;
@@ -365,6 +365,7 @@ body {
         a {
             transition: all 0.2s ease-in-out;
             text-decoration: none !important;
+            color: antiquewhite;
 
             &.next {
                 span {
@@ -396,6 +397,10 @@ body {
             float: right;
             width: 50%;
             padding: 0 0 0 1.5rem;
+        }
+
+        @media (max-width: $breakpoint-medium) {
+            padding-left: 0 !important;
         }
     }
 
@@ -1022,4 +1027,11 @@ span.post-meta {
     z-index: 10;
     padding: 0;
     transition: ease-in-out, 1.11s;
+}
+
+@media (max-width:$breakpoint-custom-medium) {
+    .img-wrapper {
+        margin-bottom: 1em;
+    }
+
 }
