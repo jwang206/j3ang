@@ -13,9 +13,11 @@ project:
   logo: "/assets/images/projects/websites/the7thmagazine/home-1.jpg"
   tech: "WordPress, Plugins"
 
+role: "WordPress Website Developer"
+
 agency:
   title: "The 7th Magazine"
-  url: "https://the7thmagazine.com"
+  url: "https://www.linkedin.com/company/the-7th-magazine"
   year: "2019"
 
 images:
