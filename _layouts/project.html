@@ -102,27 +102,25 @@
 
                 <div id="project-thumb-container">
                     <img src="{{ page.next.project.logo | prepend: site.baseurl }}" alt="{{ post.project.title }}" />
-                    <div class="">
-                        <h2 class=""">{{ page.next.project.title }}</h2>
-                    </div>
+                    <span class="h2">{{ page.next.project.title }}</span>
+
                 </div>
             </a>
             {% endif %}
 
             {% if page.previous.project.title  %}
             <a title=" Previous {{ page.previous.project.title }}"
-                            href="{{ page.previous.url | prepend: site.baseurl }}" class="next d-flex flex-column ">
+                href="{{ page.previous.url | prepend: site.baseurl }}" class="next d-flex flex-column ">
 
-                            <span class="h2 text-align-start">Next</span>
+                <span class="h2 text-align-start">Next</span>
 
-                            <div id="project-thumb-container">
-                                <img class="" src="{{ page.previous.project.logo | prepend: site.baseurl }}"
-                                    alt="{{ post.project.title }}" />
+                <div id="project-thumb-container">
+                    <img class="" src="{{ page.previous.project.logo | prepend: site.baseurl }}"
+                        alt="{{ post.project.title }}" />
 
-                                <div class="">
-                                    <h2 class="">{{ page.previous.project.title }}</h2>
-                                </div>
-                            </div>
+                    <span class="h2">{{ page.previous.project.title }}</span>
+
+                </div>
 
 
             </a>
