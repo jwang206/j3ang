@@ -475,6 +475,7 @@ body {
     .h2 {
         margin: 3rem 0 .5rem;
 
+
         &:first-of-type {
             margin-top: 0;
         }
@@ -522,6 +523,10 @@ body {
             width: 100%;
             object-fit: cover;
             height: calc(100vw * 270.0 / 960.0);
+        }
+
+        span {
+            line-height: 1.5rem !important;
         }
 
         @media (max-width: $breakpoint-medium) {
@@ -615,6 +620,7 @@ body {
 
     span {
 
+
         &:after,
         &:before {
             position: relative;
@@ -622,11 +628,14 @@ body {
             -webkit-transition: all .3s ease-in-out 0s;
             transition: all .3s ease-in-out 0s;
         }
+
+
     }
 
     h2 {
         display: inline-block;
         font-size: 1.8rem;
+
         position: relative;
 
         &:after {

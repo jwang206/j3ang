@@ -12,13 +12,23 @@
 // });
 
 // $(window).scrollTop(0, 0);
+$(".img-wrapper").css("height", $('.img-wrapper').width());
+
+$(window).on('resize', function () {
+    // set project images height equl to its width
+    $(".img-wrapper").css("height", $('.img-wrapper').width());
+});
+
 
 window.onload = function () {
 
     // init Isotope
     var $grid = $('.grid').isotope({
         // options
+        percentPosition: true,
+        layoutMode: 'fitRows'
     });
+
     // filter items on button click
     $('.filter-button-group').on('click', 'a', function () {
         var filterValue = $(this).attr('data-filter');
@@ -26,6 +36,7 @@ window.onload = function () {
             filter: filterValue
         });
     });
+
     $('.button-group a.button').on('click', function () {
         $('.button-group a.button').removeClass('active');
         $(this).addClass('active');
