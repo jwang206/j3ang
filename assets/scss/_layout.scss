@@ -247,6 +247,12 @@ body {
         }
     }
 
+    @media (min-width: $breakpoint-large) {
+        li {
+            width: calc(100%/4);
+        }
+    }
+
     li {
         margin-bottom: 3rem;
 
