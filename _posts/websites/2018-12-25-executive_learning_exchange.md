@@ -9,13 +9,13 @@ meta:
 project:
   title: "Executive Learning Exchange"
   type: "Website"
-  url: "//learningexecutive.com"
+  url: "https://learningexecutive.com"
   logo: "/assets/images/projects/ELE/logo.jpg"
   tech: "WORDPRESS, PHOTOSHOP, SKETCH, INVISION"
 
 agency:
   title: "Executive Learning Exchange"status
-  url: "http://www.learningexecutive.com"
+  url: "https://www.learningexecutive.com"
   year: "2018"
 
 images:
