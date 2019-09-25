@@ -4,14 +4,14 @@ permalink: /:title/
 category: Websites
 
 meta:
-  keywords: "Photoshop Mock-Up"
+  keywords: "WordPress Photoshop Mock-Up"
 
 project:
   title: "2019 ELE Conversational Website Mock Up"
   type: "Website"
   url: "https://invis.io/4CPX4BAV7MY#/340303858_Desktop"
   logo: "/assets/images/projects/ELE/logo.jpg"
-  tech: "PHOTOSHOP, SKETCH, INVISION"
+  tech: "WordPress PHOTOSHOP, SKETCH, INVISION"
 
 agency:
   title: "Executive Learning Exchange"
@@ -20,8 +20,11 @@ agency:
 
 images:
   - image:
+    url: "/assets/images/projects/ELE/ele_home.jpg"
+    alt: "ELE Production Home Page"
+  - image:
     url: "/assets/images/projects/ELE/mockup.jpg"
-    alt: "ELE mockup"
+    alt: "ELE Mockup"
 
 ---
 <p>2019 ELE Conversational Website Mock Up</p>
