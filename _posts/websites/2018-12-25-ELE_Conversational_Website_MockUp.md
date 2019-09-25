@@ -7,7 +7,7 @@ meta:
   keywords: "WordPress Photoshop Mock-Up"
 
 project:
-  title: "2019 ELE Conversational Website Mock Up"
+  title: "Executive Learning Exchange"
   type: "Website"
   url: "//learningexecutive.com"
   logo: "/assets/images/projects/ELE/logo.jpg"
