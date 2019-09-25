@@ -9,12 +9,12 @@ meta:
 project:
   title: "2019 ELE Conversational Website Mock Up"
   type: "Website"
-  url: "https://invis.io/4CPX4BAV7MY#/340303858_Desktop"
+  url: "//learningexecutive.com"
   logo: "/assets/images/projects/ELE/logo.jpg"
-  tech: "WordPress PHOTOSHOP, SKETCH, INVISION"
+  tech: "WORDPRESS, PHOTOSHOP, SKETCH, INVISION"
 
 agency:
-  title: "Executive Learning Exchange"
+  title: "Executive Learning Exchange"status
   url: "http://www.learningexecutive.com"
   year: "2018"
 
