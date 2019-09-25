@@ -14,7 +14,7 @@ project:
   tech: "WORDPRESS, PHOTOSHOP, SKETCH, INVISION"
 
 agency:
-  title: "Executive Learning Exchange"status
+  title: "Executive Learning Exchange"
   url: "https://www.learningexecutive.com"
   year: "2018"
 
